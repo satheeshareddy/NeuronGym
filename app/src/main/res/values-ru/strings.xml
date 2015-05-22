@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NeuronGym</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Настройки</string>
+    <string name="title_activity_language_select">Язык Выберите</string>
+    <string name="theam_select">Выбрать тему</string>
+    <string name="home_page">Домашняя Страница</string>
+
+
+    <!-- Pause Popup -->
+
+    <string name="pause">пауза</string>
+    <string name="resume">резюме</string>
+    <string name="replay">переигровка</string>
+    <string name="instrections">инструкции</string>
+    <string name="sound">звук </string>
+    <string name="exit_game">Выйти из игры</string>
+
+    <!-- Slider menu -->
+
+    <string name="home">домой</string>
+    <string name="games">Игры</string>
+    <string name="brain_profile">Мозг профиля</string>
+    <string name="compare">сравнить</string>
+    <string name="leadersbord">Лидеры Совет</string>
+    <string name="friends">друзья</string>
+    <string name="setting">установка</string>
+    <string name="language">язык</string>
+    <string name="logout">Выйти</string>
+    <string name="exit">выход</string>
+
+    <!-- Color Name -->
+
+    <string name="blue">СИНИЙ</string>
+    <string name="green">зеленый</string>
+    <string name="white">белый</string>
+    <string name="red">красный</string>
+    <string name="orange">оРАНЖЕВЫЙ</string>
+    <string name="violet">ФИОЛЕТОВЫЙ</string>
+    <string name="brown">коричневый</string>
+    <string name="pink">розовый</string>
+
+    <!-- Languages name -->
+    <string name="select_language">Выберите язык</string>
+
+    <string name="english">English</string>
+    <string name="spanish">Español</string>
+    <string name="hindi">हिंदी</string>
+    <string name="chinese">中文</string>
+    <string name="french">Français</string>
+    <string name="japanese">日本人</string>
+    <string name="russian">русский</string>
+    <string name="korean">한국의</string>
+    <string name="german">Deutsch</string>
+    <string name="turkish">Türk</string>
+    <string name="portuguese">Português</string>
+    <string name="italian">italiano</string>
+    <string name="arabic">العربية</string>
+
+
+    <!-- Login Screen -->
+    <string name="LoginWithfacebook">Войти через Facebook </string>
+    <string name="LoginWithtwitter">Войти через Twitter</string>
+    <string name="LoginWithGoogleplus">Войти через Google+</string>
+    <string name="LoginWithLinkedIn">Войти через Linkedin</string>
+    <string name="AlreadyHaveAccount">Уже есть уч. запись?</string>
+    <string name="TermsnConditions">Правила и условия</string>
+    <string name="PrivacyPolicy">Политика конфиденциальности</string>
+
+    <!-- Sign In Page -->
+    <string name="Signin">Войти В Систему</string>
+
+    <!-- Select Theme Page -->
+    <string name="Light">свет</string>
+    <string name="Dark">темно</string>
+    <string name="SelectTheme">Выбрать тему</string>
+    <string name="reminder">Напоминание</string>
+
+    <!--Home Page-->
+    <string name="title_activity_home_page">Главнаястраница</string>
+
+    <string name="over_view">Общие данные</string>
+    <string name="history">История</string>
+    <string name="Statistics">Статистика</string>
+
+    <!--Activity name-->
+    <string name="title_activity_select_language">Выберите язык</string>
+    <string name="title_activity_sign_in">Войдите в деятельности</string>
+    <string name="title_activity_brain_profile">Показатели мозга</string>
+
+
+
+    <!--Leaders Board page-->
+    <string name="title_activity_leaders_board">Таблица рекордов</string>
+    <string name="catogery_short">Категория</string>
+    <string name="over_all">В целом</string>
+    <string name="skill_wise">Навыки</string>
+    <string name="game_wise">Игра Мудрый</string>
+    <string name="global">Весь мир</string>
+    <string name="country">Страна</string>
+    <string name="your_rank">Ваши достижения</string>
+    <string name="your_rank_result">Ваш ранг</string>
+
+    <string name="rank">Место</string>
+    <string name="nationality">Национальность</string>
+    <string name="user_name">Пользователь</string>
+    <string name="ani">СПН</string>
+
+    <!--Comparision page-->
+    <string name="title_activity_comparision">сравнение</string>
+    <string name="gender_short">Пол</string>
+    <string name="location_short">Местонахождение</string>
+
+    <!--Shorting for Age selection-->
+    <string name="age_short">Возраст</string>
+    <string name="age_all">Любой</string>
+    <string name="age_kid">Ребенок</string>
+    <string name="age_youth">Молодежь</string>
+    <string name="age_adult">Взрослый</string>
+    <string name="age_mid_age">Средний возраст</string>
+    <string name="age_elder">Пожилой</string>
+    <string name="female">Женский</string>
+    <string name="male">Мужской</string>
+
+    <!--Six Gaming section name-->
+    <string name="attention">Внимание</string>
+    <string name="memory">Память</string>
+    <string name="visual">визуальный</string>
+    <string name="flexibility">гибкость</string>
+    <string name="problem_solving">Решение задач</string>
+    <string name="speed">скорость</string>
+    <string name="your_standings">Ваше положение</string>
+
+    <!--Brain Profile Activity-->
+    <string name="thirty_days">30 дней</string>
+    <string name="seven_days">7 дней</string>
+    <string name="today">Сегодня</string>
+    <string name="cognitive_change">Когнитивные изменения</string>
+    <string name="overall1">общий</string>
+
+    <!--Over View Page-->
+    <string name="average_neuron_index">Средний показатель нейронов (СПН)</string>
+    <string name="brain_workout_distribution">Области задействованные тренировками</string>
+    <string name="title_activity_game_menu">ИграМеню</string>
+
+    <!-- 20 Game Name -->
+    <string name="dual_focus">двойной фокус</string>
+    <string name="dual_focus_pro">двойной фокус за</string>
+    <string name="blink">мигать</string>
+    <string name="blink_pro">мигать за</string>
+    <string name="track_route">Подписка маршруту</string>
+    <string name="memory_matrix">Матрица памяти</string>
+    <string name="memory_matrix_pro">Матрица памяти за</string>
+    <string name="dancing_balls">Танцы Мячи</string>
+    <string name="shapes">Формы</string>
+    <string name="match_it">Match It</string>
+    <string name="match_it_pro">Match It за</string>
+    <string name="reversal">изменение</string>
+    <string name="reversal_pro">изменение за</string>
+    <string name="money_game">игра на деньги</string>
+    <string name="solve_it">Решите It</string>
+    <string name="after_math">После Math</string>
+    <string name="speed_shop">Скорость магазин</string>
+    <string name="spot_it">обнаружить его</string>
+    <string name="spot_it_pro">обнаружить его за</string>
+    <string name="brain_flash">Мозг флэш-</string>
+    <string name="title_activity_dual_focus_instruction">Двойной фокус Инструкция</string>
+
+
+    <!--Dual Focus Instruction Page-->
+    <string name="cognative_skill_trained">Задействованный когнитивный навык : </string>
+    <string name="divided_attention">Разделенное внимание</string>
+    <string name="dual_focus_instruction">Dual Focus помогает вам концентрироваться на нескольких вещах одновременно, улучшая тем самым вашу многозадачность.
+</string>
+    <string name="your_highest_score">Ваш лучший результат</string>
+    <string name="score">12500</string>
+    <string name="multiplier_reach">Множитель</string>
+    <string name="multiplier_completed">2</string>
+    <string name="how_to_play">Как играть?</string>
+    <string name="start_game">Старт</string>
+
+    <string name="title_activity_dual_focus_pro_instruction">DualFocusProИнструкция</string>
+
+    <!-- Dual Focus Pro Instruction Page -->
+    <string name="dual_focus_pro_instruction">Dual Focus помогает вам концентрироваться на нескольких вещах одновременно, улучшая тем самым вашу многозадачность.
+    </string>
+    <string name="title_activity_blink_instruction">мигать Инструкция</string>
+
+    <!-- Blink Instruction Page -->
+    <string name="blink_instruction">A digit blinks in the central circle along with an image in any one of the smaller circles.</string>
+    <string name="title_activity_blink_pro_instruction">мигатьProинструкция</string>
+    <string name="title_activity_track_the_route">Подписка маршруту</string>
+    <string name="title_activity_memory_matrix">Матрицапамяти</string>
+    <string name="title_activity_memory_matrix_pro_instruction">МатрицапамятиProинструкция</string>
+    <string name="title_activity_dancing_ball_instruction">Танцы Мячи инструкция</string>
+    <string name="title_activity_shapes_instruction">Формы инструкция</string>
+    <string name="title_activity_match_it_instruction">MatchItинструкция</string>
+    <string name="title_activity_match_it_pro_instruction">MatchItProинструкцияn</string>
+    <string name="title_activity_reversal_instruction">изменениеинструкция</string>
+    <string name="title_activity_reversal_pro_instruction">изменениеProинструкция</string>
+    <string name="title_activity_money_game_instruction">игра на деньгиинструкция</string>
+    <string name="title_activity_solve_it_instruction">Решите Itинструкция</string>
+    <string name="title_activity_after_math_instruction">ПослеMathинструкция</string>
+    <string name="title_activity_speed_shop_instruction">Скоростьмагазининструкция</string>
+    <string name="title_activity_spot_it_instruction">обнаружитьегоинструкция</string>
+    <string name="title_activity_spot_it_pro_instruction">обнаружитьегоProинструкция</string>
+    <string name="title_activity_brain_flash_instruction">Мозг флэш-инструкция</string>
+
+    <!--Track The Route Instruction Page-->
+    <string name="track_route_instruction">Track the route - улучшает вашу работоспособность и навигационную память. Он помогает вашему мозгу запоминать маршруты и самые разные пути.
+    </string>
+
+
+    <!--Memory Matrix Instruction Page-->
+    <string name="memory_matrix_instruction">Memory Matrix - развивает ваше пространственное мышление и способность восстанавливать место расположения объекта.
+    </string>
+
+    <!--Memory Matrix Pro Instruction Page-->
+    <string name="memory_matrix_pro_instruction">Memory Matrix - развивает ваше пространственное мышление и способность восстанавливать место расположения объекта.
+    </string>
+
+    <!--Dancing Balls  Instruction Page-->
+    <string name="dancing_balls_instruction">Dancing Balls - помогает воспринимать визуальную информацию быстро и легко, например, когда вы ведете машину.
+    </string>
+
+    <!--Shapes Instruction Page-->
+    <string name="shapes_instruction">Shapes - помогают вашему мозгу отбрасывать ненужную информацию, выделяя при этом важную.
+    </string>
+
+    <!--Match It Instruction Page-->
+    <string name="match_it_instruction">Match it - улучшает гибкость мышления, особенно в ситуациях требующих быстрого принятия решения.
+    </string>
+
+    <!--Match It Pro Instruction Page-->
+    <string name="match_it_pro_instruction">Match it Pro - улучшает гибкость мышления, особенно в ситуациях требующих быстрого принятия решения.
+    </string>
+
+    <!--Reversal Instruction Page-->
+    <string name="reversal_instruction">Reversal - помогает улучшить навыки когнитивного контроля, задействуя вашу возможность быстро переключать свое внимание
+    </string>
+
+    <!--Reversal Pro Instruction Page-->
+    <string name="reversal_pro_instruction">Reversal - помогает улучшить навыки когнитивного контроля, задействуя вашу возможность быстро переключать свое внимание
+    </string>
+
+    <!--Money Game Instruction Page-->
+    <string name="money_game_instruction">Money Game - улучшает ваши способности в решении задач путем стимулирования количественного анализа.
+    </string>
+
+    <!--Solve It Instruction Page-->
+    <string name="solve_it_instruction">Solve It - помогает решать уравнения быстро и легко.
+    </string>
+
+    <!--After Math Instruction Page-->
+    <string name="after_math_instruction">Aftermath - помогает вам быстро принять решения, основываясь на количественных показателях.
+    </string>
+
+    <!--Speed Shop Instruction Page-->
+    <string name="speed_shop_instruction">Speed Shop - увеличивает скорость вашего мышления при принятии небольших решений, улучшая тем самым общие показатели.
+    </string>
+
+    <!--Spot It Instruction Page-->
+    <string name="spot_it_instruction">Spot it fastens the information processing
+        speed of your brain.</string>
+
+    <!--Spot It Pro Instruction Page-->
+    <string name="spot_it_pro_instruction">Spot it Pro fastens the information processing
+        speed of your brain.</string>
+
+
+    <!--Brain Flash Instruction Page-->
+    <string name="brain_flash_instruction">Spot it - ускоряет обработку информации вашим мозгом.
+    </string>
+
+
+
+    <!-- Dual Focus How To Play Page -->
+    <string name="how_to_play_dual_focus1">В центральном круге цифрой мигает вместе с изображением в одном из небольших кругах.</string>
+    <string name="how_to_play_dual_focus2">Нажмите цифру, которая появилась.</string>
+    <string name="how_to_play_dual_focus3">Нажмите на изображение, которое появилось.</string>
+    <string name="how_to_play_dual_focus4">abhinav</string>
+
+    <!-- Dual Focus Pro How To Play Page -->
+    <string name="how_to_play_dual_focus_pro"> Нажмите на меньший круг, где появился образ.</string>
+
+    <!-- Blink How To Play Page -->
+    <string name="how_to_play_blink1">Поток серых алфавитов мигает вместе с цифрами и зеленого цвета алфавита.</string>
+    <string name="how_to_play_blink2">Нажмите эту цифру и зеленого цвета алфавит из предложенных вариантов.</string>
+
+    <!-- Blink Pro How To Play Page -->
+    <string name="how_to_play_blink_pro1"> Поток серых алфавитов мигает с цифры, с зеленой алфавита и голубой алфавита.</string>
+    <string name="how_to_play_blink_pro2">Нажмите на цифре, а также зеленый и синий алфавита от соответствующих параметров.</string>
+
+    <!-- Track The Route How To Play Page -->
+    <string name="how_to_play_track_the_route1">Самолет соединяет точки, чтобы сформировать определенный шаблон.</string>
+    <string name="how_to_play_track_the_route2">Запомните шаблон и создать его заново, нажав на точки в том же порядке.</string>
+
+    <!-- Memory Matrix How To Play Page -->
+    <string name="how_to_play_memory_matrix1">Запомните круги, индикатор горит красным.</string>
+    <string name="how_to_play_memory_matrix2">Нажмите одни и те же круги после того как они исчезают.</string>
+
+    <!-- Memory Matrix Pro Pro How To Play Page -->
+    <string name="how_to_play_memory_matrix_pro1">Запомните круги, свечение, синий или красный.</string>
+    <string name="how_to_play_memory_matrix_pro2"> Нажмите Только красные круги, если выше индикатор показывает красный цвет.</string>
+    <string name="how_to_play_memory_matrix_pro3">Нажмите Только синие круги, если выше индикатор показывает синий.</string>
+
+    <!-- Dancing Ball How To Play Page -->
+    <string name="how_to_play_dancing_ball1">Путь движущегося шара создает контур фигуры.</string>
+    <string name="how_to_play_dancing_ball2">Нажмите на правильный вариант.</string>
+
+    <!-- Shapes How To Play Page -->
+    <string name="how_to_play_shapes1">Нажмите на двух одинаковых фигур.</string>
+
+    <!-- Match It How To Play Page -->
+    <string name="how_to_play_match_it1"> Если смысл текста такое же, как цвет текста, нажмите нужную кнопку</string>
+    <string name="how_to_play_match_it2">И если это не то же самое кран не ту кнопку.</string>
+
+    <!-- Match It Pro How To Play Page -->
+    <string name="how_to_play_match_it_pro1"> Если смысл текста по смыслу поле такое же, как и цвет текста в поле цвета водопроводной нужную кнопку.</string>
+    <string name="how_to_play_match_it_pro2"> И если это не то же самое кран не ту кнопку.</string>
+
+    <!-- Reversal How To Play Page -->
+    <string name="how_to_play_reversal1"> Когда мяч находится зеленый он будет двигаться в направлении вашего салфетки.</string>
+    <string name="how_to_play_reversal2">Когда мяч красный она будет двигаться в направлении, противоположном вашему салфетки.</string>
+    <string name="how_to_play_reversal3"> Ваша цель состоит, чтобы положить мяч в светящиеся корзине.</string>
+
+    <!-- Reversal Pro How To Play Page -->
+    <string name="how_to_play_reversal_pro1">Ваша цель состоит, чтобы положить мяч в корзине же цвета, как на внешнем кольце мяч.</string>
+
+    <!-- Money Game How To Play Page -->
+    <string name="how_to_play_money_game1"> Нажмите>, если сумма монет в левом поле больше.</string>
+    <string name="how_to_play_money_game2"> Нажмите>, если сумма монет в правом окне больше. </string>
+    <string name="how_to_play_money_game3"> Нажмите =, если сумма монет в обоих коробках имеют тот же.</string>
+
+    <!-- Solve It How To Play Page -->
+    <string name="how_to_play_solve_it1"> Рассчитать уравнение и ответа с помощью клавиатуры.</string>
+    <string name="how_to_play_solve_it2">Нажмите C, чтобы отменить ввод </string>
+    <string name="how_to_play_solve_it3"> Нажмите кнопку воспроизведения, чтобы пропустить уравнение.</string>
+
+    <!-- After Math How To Play Page -->
+    <string name="how_to_play_after_math1"> Проверьте, правильно ли данное уравнение является правильным или неправильным.</string>
+    <string name="how_to_play_after_math2"> Соответственно Нажмите правильный или неправильный кнопки. </string>
+
+    <!-- Speed Shop How To Play Page -->
+    <string name="how_to_play_speed_shop1">Проведите центральный объект к категории, к которой он принадлежит.</string>
+
+    <!-- Spot It How To Play Page -->
+    <string name="how_to_play_spot_it1">Найди объект, проходящий через бинокль.</string>
+    <string name="how_to_play_spot_it2">  Нажмите и тот же объект из предложенных вариантов.</string>
+
+    <!-- Spot It Pro How To Play Page -->
+    <string name="how_to_play_spot_it_pro1"> Найди два объекта одновременно проходящего через бинокль.</string>
+    <string name="how_to_play_spot_it_pro2">Нажмите на те же объекты из предложенных вариантов.</string>
+
+    <!-- Brain Flash How To Play Page -->
+    <string name="how_to_play_brain_flash1">Сконцентрируйтесь на вращающихся серыми кругами.</string>
+    <string name="how_to_play_brain_flash2">Нажмите на круг, который меняет цвет на зеленый, как быстро, как это возможно.</string>
+    <string name="how_to_play_brain_flash3"> Не нажимайте, если она станет красной.</string>
+
+
+    <string name="title_activity_how_to_play_after_match">Как играть после Math</string>
+    <string name="title_activity_how_to_play_match_it">Как играть такую же цену</string>
+    <string name="title_activity_how_to_play_match_it_pro">Как играть матч Pro</string>
+    <string name="title_activity_how_to_play_memorymatrix">Как играть матрицу памяти</string>
+    <string name="title_activity_how_to_play_memorymatrix_pro">Как играть памяти матрица Pro</string>
+    <string name="title_activity_how_to_play_money">Как играть деньги</string>
+    <string name="title_activity_how_to_play_reversal">Как играть Reversal</string>
+    <string name="title_activity_how_to_play_reversal_pro">Как играть разворота Pro</string>
+    <string name="title_activity_how_to_play_shapes">Как играть фигур</string>
+    <string name="title_activity_how_to_play_solve_it">Как играть решить ее</string>
+    <string name="title_activity_how_to_play_speed_shop">Как играть Speed Shop</string>
+    <string name="title_activity_how_to_play_spot_it">Как играть обнаружить его</string>
+    <string name="title_activity_how_to_play_spot_it_pro">Как играть Пятно It Pro</string>
+    <string name="title_activity_how_to_play_track_the_route">Как играть отслеживать маршрут</string>
+    <string name="title_activity_game_over">Игра Закончена</string>
+    <string name="title_activity_form">форма</string>
+
+
+</resources>

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.edlogiq.neurongym" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" /> -->
+    <!-- Required to show current location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!-- android:name="com.edlogiq.neurongym.constant.Parseinable" -->
+    <application
+        android:name=".constant.Parseinable"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <supports-screens
+            android:anyDensity="true"
+            android:largeScreens="true"
+            android:normalScreens="true"
+            android:smallScreens="true"
+            android:xlargeScreens="true" />
+
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <receiver
+            android:name=".neurongym.Receiver"
+            android:process=":remote" />
+
+        <activity
+            android:name=".neurongym.Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".neurongym.BrainProfile"
+            android:label="@string/title_activity_brain_profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".neurongym.SelectLanguage"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/title_activity_select_language"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".signin.SignInActivity"
+            android:label="@string/title_activity_sign_in"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".neurongym.ThemeSelect"
+            android:label="@string/title_activity_theme_select"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".neurongym.HomePage"
+            android:label="@string/title_activity_home_page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".neurongym.Comparision"
+            android:label="@string/title_activity_comparision"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".neurongym.LeadersBoard"
+            android:label="@string/title_activity_leaders_board"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".neurongym.GameMenu"
+            android:label="@string/title_activity_game_menu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".neurongym.DualFocusInstruction"
+            android:label="@string/title_activity_dual_focus_instruction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".neurongym.DualFocusProInstruction"
+            android:label="@string/title_activity_dual_focus_pro_instruction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".neurongym.BlinkInstruction"
+            android:label="@string/title_activity_blink_instruction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".neurongym.BlinkProInstruction"
+            android:label="@string/title_activity_blink_pro_instruction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".neurongym.TrackTheRouteInstruction"
+            android:label="@string/title_activity_track_the_route"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".neurongym.MemoryMatrixInstruction"
+            android:label="@string/title_activity_memory_matrix"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".neurongym.MemoryMatrixProInstruction"
+            android:label="@string/title_activity_memory_matrix_pro_instruction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".neurongym.DancingBallInstruction"
+            android:label="@string/title_activity_dancing_ball_instruction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".neurongym.ShapesInstruction"
+            android:label="@string/title_activity_shapes_instruction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".neurongym.MatchItInstruction"
+            android:label="@string/title_activity_match_it_instruction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".neurongym.MatchItProInstruction"
+            android:label="@string/title_activity_match_it_pro_instruction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".neurongym.ReversalInstruction"
+            android:label="@string/title_activity_reversal_instruction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".neurongym.ReversalProInstruction"
+            android:label="@string/title_activity_reversal_pro_instruction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".neurongym.MoneyGameInstruction"
+            android:label="@string/title_activity_money_game_instruction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".neurongym.SolveItInstruction"
+            android:label="@string/title_activity_solve_it_instruction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".neurongym.AfterMathInstruction"
+            android:label="@string/title_activity_after_math_instruction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".neurongym.SpeedShopInstruction"
+            android:label="@string/title_activity_speed_shop_instruction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".neurongym.SpotItInstruction"
+            android:label="@string/title_activity_spot_it_instruction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".neurongym.SpotItProInstruction"
+            android:label="@string/title_activity_spot_it_pro_instruction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".neurongym.BrainFlashInstruction"
+            android:label="@string/title_activity_brain_flash_instruction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.DualFocusGame"
+            android:label="@string/title_activity_dual_focus_game"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.DualFocusProGame"
+            android:label="@string/title_activity_dual_focus_pro_game"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.BlinkGame"
+            android:label="@string/title_activity_blink_game"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.BlinkProGame"
+            android:label="@string/title_activity_blink_pro_game"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.MemoryMatrixgame"
+            android:label="@string/title_activity_memory_matrixgame"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.MemoryMatrixProGame"
+            android:label="@string/title_activity_memory_matrix_pro_game"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.ShapesGame"
+            android:label="@string/title_activity_shapes_game"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.MatchItGame"
+            android:label="@string/title_activity_match_it_game"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.MatchItProGame"
+            android:label="@string/title_activity_match_it_pro_game"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.ReversalGame"
+            android:label="@string/title_activity_reversal_game"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.ReversalProGame"
+            android:label="@string/title_activity_reversal_pro_game"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.MoneyGame"
+            android:label="@string/title_activity_money_game"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.AfterMatchGame"
+            android:label="@string/title_activity_after_match_game"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.BrainFlashGame"
+            android:label="@string/title_activity_brain_flash_game"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.SpotItGame"
+            android:label="@string/title_activity_spot_it_game"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.SpotItProGame"
+            android:label="@string/title_activity_spot_it_pro_game"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.SolveItGame"
+            android:label="@string/title_activity_solve_it_game"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.DancingBallGame"
+            android:label="@string/title_activity_dancing_ball_game" />
+        <activity
+            android:name=".game.TrackTheRouteGame"
+            android:label="@string/title_activity_track_the_route_game" />
+        <activity
+            android:name=".game.SpeedShopGame"
+            android:label="@string/title_activity_speed_shop_game" />
+        <activity
+            android:name=".howtoplay.HowToPlayDualFocuse"
+            android:label="@string/title_activity_how_to_play_dual_focuse"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".howtoplay.HowToPlayDualFocuspro"
+            android:label="@string/title_activity_how_to_play_dual_focuspro" />
+        <activity
+            android:name=".howtoplay.HowToPlayBlink"
+            android:label="@string/title_activity_how_to_play_blink" >
+        </activity>
+        <activity
+            android:name=".howtoplay.HowToPlayBlinkPro"
+            android:label="@string/title_activity_how_to_play_blink_pro" >
+        </activity>
+        <activity
+            android:name=".howtoplay.HowToPlayBrainFlash"
+            android:label="@string/title_activity_how_to_play_brain_flash" >
+        </activity>
+        <activity
+            android:name=".howtoplay.HowToPlayDancingBall"
+            android:label="@string/title_activity_how_to_play_dancing_ball" >
+        </activity>
+        <activity
+            android:name=".howtoplay.HowToPlayAfterMatch"
+            android:label="@string/title_activity_how_to_play_after_match" >
+        </activity>
+        <activity
+            android:name=".howtoplay.HowToPlayMatchIt"
+            android:label="@string/title_activity_how_to_play_match_it" >
+        </activity>
+        <activity
+            android:name=".howtoplay.HowToPlayMatchItPro"
+            android:label="@string/title_activity_how_to_play_match_it_pro" >
+        </activity>
+        <activity
+            android:name=".howtoplay.HowToPlayMemorymatrix"
+            android:label="@string/title_activity_how_to_play_memorymatrix" >
+        </activity>
+        <activity
+            android:name=".howtoplay.HowToPlayMemorymatrixPro"
+            android:label="@string/title_activity_how_to_play_memorymatrix_pro" >
+        </activity>
+        <activity
+            android:name=".howtoplay.HowToPlayMoney"
+            android:label="@string/title_activity_how_to_play_money" >
+        </activity>
+        <activity
+            android:name=".howtoplay.HowToPlayReversal"
+            android:label="@string/title_activity_how_to_play_reversal" >
+        </activity>
+        <activity
+            android:name=".howtoplay.HowToPlayReversalPro"
+            android:label="@string/title_activity_how_to_play_reversal_pro" >
+        </activity>
+        <activity
+            android:name=".howtoplay.HowToPlayShapes"
+            android:label="@string/title_activity_how_to_play_shapes" >
+        </activity>
+        <activity
+            android:name=".howtoplay.HowToPlaySolveIt"
+            android:label="@string/title_activity_how_to_play_solve_it" >
+        </activity>
+        <activity
+            android:name=".howtoplay.HowToPlaySpeedShop"
+            android:label="@string/title_activity_how_to_play_speed_shop" >
+        </activity>
+        <activity
+            android:name=".howtoplay.HowToPlaySpotIt"
+            android:label="@string/title_activity_how_to_play_spot_it" >
+        </activity>
+        <activity
+            android:name=".howtoplay.HowToPlaySpotItPro"
+            android:label="@string/title_activity_how_to_play_spot_it_pro" >
+        </activity>
+        <activity
+            android:name=".howtoplay.HowToPlayTrackTheRoute"
+            android:label="@string/title_activity_how_to_play_track_the_route" >
+        </activity>
+        <activity
+            android:name=".neurongym.GameOver"
+            android:label="@string/title_activity_game_over" >
+        </activity>
+        <activity
+            android:name=".signin.Form"
+            android:label="@string/title_activity_form" >
+        </activity>
+        <activity
+            android:name=".signin.LoginIn"
+            android:label="@string/title_activity_login_in" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+    </application>
+
+</manifest>

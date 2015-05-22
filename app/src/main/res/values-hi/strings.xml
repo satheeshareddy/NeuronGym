@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">न्यूरॉन जिम</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="title_activity_language_select">भाषाचुने</string>
+    <string name="theam_select">थीम चुने</string>
+    <string name="home_page">होम पेज</string>
+    <!-- Slider menu -->
+
+    <string name="home">होम </string>
+    <string name="games">खेलों</string>
+    <string name="brain_profile">ब्रेन प्रोफाइल</string>
+    <string name="compare">तुलना करें</string>
+    <string name="leadersbord">लीडर बोर्ड</string>
+    <string name="friends">मित्र</string>
+    <string name="setting">सेटिंग</string>
+    <string name="language">भाषा</string>
+    <string name="logout">लॉग आउट</string>
+    <string name="exit">बाहर जाएं</string>
+
+    <!-- Color Name -->
+
+    <string name="blue">नीला</string>
+    <string name="green">हरा</string>
+    <string name="white">सफेद</string>
+    <string name="red">लाल</string>
+    <string name="orange">नारंगी</string>
+    <string name="violet">बेंगनी</string>
+    <string name="brown">भूरा</string>
+    <string name="pink">गुलाबी</string>
+
+
+    <!-- Languages name -->
+    <string name="select_language">भाषा चुने</string>
+
+    <string name="english">English</string>
+    <string name="spanish">Español</string>
+    <string name="hindi">हिंदी</string>
+    <string name="chinese">中文</string>
+    <string name="french">Français</string>
+    <string name="japanese">日本人</string>
+    <string name="russian">русский</string>
+    <string name="korean">한국의</string>
+    <string name="german">Deutsch</string>
+    <string name="turkish">Türk</string>
+    <string name="portuguese">Português</string>
+    <string name="italian">italiano</string>
+    <string name="arabic">العربية</string>
+
+
+    <!-- Login Screen -->
+    <string name="LoginWithfacebook">फ़ेसबुक के साथ प्रवेश करे </string>
+    <string name="LoginWithtwitter">ट्विटर के साथ प्रवेश करें</string>
+    <string name="LoginWithGoogleplus">गूगल के साथ प्रवेश करें </string>
+    <string name="LoginWithLinkedIn">लिंक्डइन के साथ प्रवेश करें </string>
+    <string name="AlreadyHaveAccount">अकाउंट मौजूद है? </string>
+    <string name="TermsnConditions">नियम एवं शर्तें </string>
+    <string name="PrivacyPolicy">गोपनीयता नीति </string>
+
+    <!-- Sign In Page -->
+    <string name="Signin">प्रवेश करें </string>
+
+    <!-- Game over Page -->
+    <string name="accuracy">शुद्धत :ा</string>
+
+    <!-- Select Theme Page -->
+    <string name="Light">हल्का  </string>
+    <string name="Dark">गाढ़ा  </string>
+    <string name="SelectTheme">थीम चुने </string>
+    <string name="reminder">अनुस्मारक</string>
+
+    <!--Home Page-->
+    <string name="title_activity_home_page">मुखपृष्ठ </string>
+    <string name="over_view">अवलोकन </string>
+    <string name="history">इतिहास </string>
+    <string name="Statistics">आंकड़े </string>
+
+    <!--Activity name-->
+    <string name="title_activity_select_language">भाषाचुने </string>
+    <string name="title_activity_sign_in">गतिविधि में साइन इन करें </string>
+    <string name="title_activity_brain_profile">ब्रेन प्रोफाइल </string>
+
+
+
+    <!--Leaders Board page-->
+    <string name="title_activity_leaders_board">लीडर बोर्ड </string>
+    <string name="catogery_short">श्रेणी </string>
+    <string name="location">स्थान </string>
+    <string name="over_all">संपूर्ण </string>
+    <string name="skill_wise">कुशलता के अनुसार </string>
+    <string name="game_wise">खेल के अनुसार </string>
+    <string name="global">ग्लोबल </string>
+    <string name="country">देश </string>
+    <string name="your_rank">अपनी रैंकिंग </string>
+    <string name="your_rank_result">आपका रैंक </string>
+
+    <string name="rank">रैंक</string>
+    <string name="nationality">राष्ट्रीयता</string>
+    <string name="user_name">उपयोगकर्ता नाम</string>
+    <string name="ani">ए. एन. आइ.</string>
+
+    <!--Comparision page-->
+    <string name="title_activity_comparision">तुलना </string>
+    <string name="gender_short">लिंग </string>
+    <string name="location_short">स्थान </string>
+
+    <!--Shorting for Age selection-->
+    <string name="age_short">उम्र  </string>
+    <string name="age_all">सारे </string>
+    <string name="age_kid">बच्चे </string>
+    <string name="age_youth"> युवा </string>
+    <string name="age_adult">वयस्क </string>
+    <string name="age_mid_age">मध्याह्न उम्र </string>
+    <string name="age_elder">वृध्द  </string>
+    <string name="female">स्त्री </string>
+    <string name="male">पुरुष </string>
+
+    <!--Six Gaming section name-->
+    <string name="attention">ध्यान </string>
+    <string name="memory">याददाश्त </string>
+    <string name="visual">दृश्य </string>
+    <string name="flexibility">लचीलापन </string>
+    <string name="problem_solving">समस्या हल </string>
+    <string name="speed">गति </string>
+    <string name="your_standings">आपका स्थान</string>
+
+    <!--Brain Profile Activity-->
+    <string name="thirty_days">30 दिन </string>
+    <string name="seven_days">7 दिन </string>
+    <string name="today">आज </string>
+    <string name="cognitive_change">संज्ञानात्मक  बदलाव </string>
+    <string name="overall1">संपूर्ण </string>
+
+    <!--Over View Page-->
+    <string name="average_neuron_index">एवरेज न्यूरॉन  इंडेक्स(ए. एन. आइ.) </string>
+    <string name="brain_workout_distribution">मस्तिष्क व्यायाम वितरण </string>
+    <string name="title_activity_game_menu">खेल मेनू</string>
+
+    <!-- 20 Game Name -->
+    <string name="dual_focus">दोहरी ध्यान</string>
+    <string name="dual_focus_pro">दोहरी ध्यान प्रो</string>
+    <string name="blink">ब्लिंक</string>
+    <string name="blink_pro">ब्लिंक प्रो</string>
+    <string name="track_route">ट्रॅक द रूट </string>
+    <string name="memory_matrix">मेमोरी मेट्रिक्स</string>
+    <string name="memory_matrix_pro">मेमोरी मेट्रिक्स प्रो</string>
+    <string name="dancing_balls">डांसिंग बॉल</string>
+    <string name="shapes">आकृति </string>
+    <string name="match_it">मैच ईट</string>
+    <string name="match_it_pro">मैच ईट प्रो</string>
+    <string name="reversal">रिवर्सल</string>
+    <string name="reversal_pro">रिवर्सल प्रो</string>
+    <string name="money_game">मनी गेम</string>
+    <string name="solve_it">सॉल्व इट </string>
+    <string name="after_math">आफ़टरमैथ</string>
+    <string name="speed_shop">स्पीड शॉप</string>
+    <string name="spot_it">स्पॉट इट</string>
+    <string name="spot_it_pro">स्पॉट इट प्रो</string>
+    <string name="brain_flash">ब्रेन फ्लैश </string>
+    <string name="title_activity_dual_focus_instruction">दोहरीध्याननिर्देश</string>
+
+
+    <!--Dual Focus Instruction Page-->
+    <string name="cognative_skill_trained">संज्ञानात्मक कौशल  प्रशिक्षित : </string>
+    <string name="divided_attention">विभाजित ध्यान</string>
+    <string name="dual_focus_instruction">दोहरी ध्यान एक ही समय में कई बातों पर ध्यान देने के लिए मदद करता है,
+        इस तरह आपकी मल्टीटास्किंग क्षमता को बढ़ाता है</string>
+    <string name="your_highest_score">आपका उच्चतम स्कोर</string>
+    <string name="score">12500</string>
+    <string name="multiplier_reach">गुणक पहुँच</string>
+    <string name="multiplier_completed">2</string>
+    <string name="how_to_play">कैसें खेले?</string>
+    <string name="start_game">शुरू करें</string>
+
+    <string name="title_activity_dual_focus_pro_instruction">दोहरी ध्यान प्रो निर्देश</string>
+
+    <!-- Dual Focus Pro Instruction Page -->
+    <string name="dual_focus_pro_instruction">दोहरी ध्यान प्रो आप कई चीजों को ध्यान से खेलने के लिए मदद करता है
+         एक ही समय में इस प्रकार अपने मल्टीटास्किंग क्षमता बढ़ाने के।</string>
+    <string name="title_activity_blink_instruction">ब्लिंक निर्देश</string>
+
+    <!-- Blink Instruction Page -->
+    <string name="blink_instruction">ब्लिंक एक उत्तम ध्यान का खेल है जो आपको अपने आसपास की वस्तुओ को शीघ्र एवं  के साथ समझने मे मदद करता है
+    </string>
+    <string name="title_activity_blink_pro_instruction">ब्लिंक प्रो निर्देश </string>
+    <string name="title_activity_track_the_route">ट्रॅक द रूट </string>
+    <string name="title_activity_memory_matrix">मेमोरी मेट्रिक</string>
+    <string name="title_activity_memory_matrix_pro_instruction">मेमोरी मैट्रिक्स प्रो निर्देश</string>
+    <string name="title_activity_dancing_ball_instruction">डांसिंग बॉल निर्देश</string>
+    <string name="title_activity_shapes_instruction">Shapes निर्देश</string>
+    <string name="title_activity_match_it_instruction">मैच ईट निर्देश</string>
+    <string name="title_activity_match_it_pro_instruction">मैच ईट प्रो निर्देश</string>
+    <string name="title_activity_reversal_instruction">रिवर्सल निर्देश</string>
+    <string name="title_activity_reversal_pro_instruction">रिवर्सल प्रो निर्देश</string>
+    <string name="title_activity_money_game_instruction">मनी गेम निर्देश</string>
+    <string name="title_activity_solve_it_instruction">सॉल्व इट  निर्देश</string>
+    <string name="title_activity_after_math_instruction">आफ़टरमैथ निर्देश</string>
+    <string name="title_activity_speed_shop_instruction">स्पीड शॉप निर्देश</string>
+    <string name="title_activity_spot_it_instruction">SpotIt निर्देश</string>
+    <string name="title_activity_spot_it_pro_instruction"> स्पॉट इट प्रो निर्देश</string>
+    <string name="title_activity_brain_flash_instruction">ब्रेन फ्लैश निर्देश</string>
+
+    <!--Track The Route Instruction Page-->
+    <string name="track_route_instruction">ट्रॅक द रूट आपकी कार्यकारी एवं नौवहन याद को बढ़ाता है
+    </string>
+
+
+    <!--Memory Matrix Instruction Page-->
+    <string name="memory_matrix_instruction">मेमोरी मेट्रिक्स आपकी स्थानिक याद एवं आपकी किसी वास्तु के जगह को याद रखने की क्षमता को बढ़ता है 
+    </string>
+
+    <!--Memory Matrix Pro Instruction Page-->
+    <string name="memory_matrix_pro_instruction">मेमोरी मेट्रिक्स  प्रो  आपकी स्थानिक याद एवं आपकी किसी वास्तु के जगह को याद रखने की क्षमता को बढ़ता है 
+    </string>
+
+    <!--Dancing Balls  Instruction Page-->
+    <string name="dancing_balls_instruction">डांसिंग बॉल आपको दृश्या जानकारी  आसानी से एवं  कुशलतापूर्वक संशाधित करने मे मदद करता हैं जैसे की गाड़ी चलाना
+     </string>
+
+    <!--Shapes Instruction Page-->
+    <string name="shapes_instruction">आकृति आपके दिमाग़ को अनावश्यक डेटा की अनदेखी करने जबकि ज़रूरी डेटा को ग्रहण करने में सक्षम बनाने मे मदद करता हैं
+     </string>
+
+    <!--Match It Instruction Page-->
+    <string name="match_it_instruction">मैच ईट आपकी मानसिक लचीलापन , मुखतया चुने और आगे बढ़ने की निर्णय लेने की परिस्थिति  में बढ़ाता हैं
+    </string>
+
+    <!--Match It Pro Instruction Page-->
+    <string name="match_it_pro_instruction">मैच ईट प्रो आपकी मानसिक लचीलापन , मुखतया चुने और आगे बढ़ने की निर्णय लेने की परिस्थिति  में बढ़ाता हैं
+    </string>
+
+    <!--Reversal Instruction Page-->
+    <string name="reversal_instruction">रिवर्सल आपके   ध्यान का ध्यान केंद्रित स्थानांतरण की क्षमता को तेज़ी से बढ़ाकर आपकी संज्ञानात्मक नियंत्रण क्षमता को विकसित करता हैं
+    </string>
+
+    <!--Reversal Pro Instruction Page-->
+    <string name="reversal_pro_instruction">रिवर्सल प्रो आपके   ध्यान का ध्यान केंद्रित स्थानांतरण की क्षमता को तेज़ी से बढ़ाकर आपकी संज्ञानात्मक नियंत्रण क्षमता को विकसित करता हैं
+    </string>
+
+    <!--Money Game Instruction Page-->
+    <string name="money_game_instruction">मनी गेम आपकीमात्रात्मक तर्क क्षमता को उत्तेजित करके आपकी समस्या को सुलझाने की कुशलता को बढ़ता हैं
+    </string>
+
+    <!--Solve It Instruction Page-->
+    <string name="solve_it_instruction">सॉल्व इट  जल्दी से और कुशलता समीकरण की गणना करने मे मदद करता हैं
+    </string>
+
+    <!--After Math Instruction Page-->
+    <string name="after_math_instruction">आफ़टरमैथ आपको मात्रात्मक डेटा सन्दर्भ में कुशलतापूर्वक फेसला लेने मे मदद करता है
+    </string>
+
+    <!--Speed Shop Instruction Page-->
+    <string name="speed_shop_instruction">स्पीड शॉप आपकी लघु निर्णय लेने की प्रसंस्करण  गति को बढ़ता है इस प्रकार संपूर्ण क्षमता को बढ़ाता हैं
+    </string>
+
+    <!--Spot It Instruction Page-->
+    <string name="spot_it_instruction"> स्पॉट इट आपके मस्तिस्क की सूचना प्रसंस्करण  गति  को तेज कर देता है
+    </string>
+
+    <!--Spot It Pro Instruction Page-->
+    <string name="spot_it_pro_instruction"> स्पॉट इट प्रो आपके मस्तिस्क की सूचना प्रसंस्करण  गति  को तेज कर देता है
+    </string>
+
+
+    <!--Brain Flash Instruction Page-->
+    <string name="brain_flash_instruction">ब्रेन फ्लैश  आपकी प्रतिक्रियात्मक कार्रवाई को आपके मस्तिस्क के प्रसंस्करण  गति  को बढ़ा के विकसित करता है
+    </string>
+
+
+
+    <!-- Dual Focus How To Play Page -->
+    <string name="how_to_play_dual_focus1">केंद्रीय गोले  में एक अंक के साथ-साथकिसी एक छोटे गोले  मेंएक छवि झपकती है.</string>
+    <string name="how_to_play_dual_focus2">प्रस्तुत अंक को थपथपाए.</string>
+    <string name="how_to_play_dual_focus3">छवि जो प्रस्तुत होती है.</string>
+    <string name="how_to_play_dual_focus4">abhinav</string>
+
+    <!-- Dual Focus Pro How To Play Page -->
+    <string name="how_to_play_dual_focus_pro"> छोटे गोले  में जहाँ  छवि प्रस्तुत होती है.</string>
+
+    <!-- Blink How To Play Page -->
+    <string name="how_to_play_blink1">धूसर रंग के अक्षरों की धारा,एक अंक और एक हरा रंग के अक्षर के साथ ब्लिंक करता है.</string>
+    <string name="how_to_play_blink2">दिए गये विकल्पों में से उस अंक और हरा रंग के अक्षर को  थपथपाए .</string>
+
+    <!-- Blink Pro How To Play Page -->
+    <string name="how_to_play_blink_pro1">  धूसर रंग के अक्षरों की धारा,एक अंक, एक हरा रंग के अक्षर एवं एक नीले रंग के अक्षर के साथ ब्लिंक करता है.</string>
+    <string name="how_to_play_blink_pro2">दिए गये विकल्पों में से उस अंक के साथ-साथ हरा एवं नीले रंग के अक्षर को  थपथपाए .</string>
+
+    <!-- Track The Route How To Play Page -->
+    <string name="how_to_play_track_the_route1">हवाई जहाज़ एक विशेष क्रम के बिंदुओं को जोड़ता है.</string>
+    <string name="how_to_play_track_the_route2">क्रम को याद रखें एवं उसी क्रम को बिंदुओं को दबाते हुए  पुनःबनाए.</string>
+
+    <!-- Memory Matrix How To Play Page -->
+    <string name="how_to_play_memory_matrix1">लाल चमकने वाले गोलो को याद रखें.</string>
+    <string name="how_to_play_memory_matrix2">उसी गोले को गायब होने के बाद दबाए.</string>
+
+    <!-- Memory Matrix Pro Pro How To Play Page -->
+    <string name="how_to_play_memory_matrix_pro1">लाल या नीले चमकने वाले गोलो को याद रखें.</string>
+    <string name="how_to_play_memory_matrix_pro2"> उपर यदि सूचक लाल दिखता है तो लाल गोले को दबाए .</string>
+    <string name="how_to_play_memory_matrix_pro3">उपर यदि सूचक नीला दिखता है तो नीले गोले को दबाए .</string>
+
+    <!-- Dancing Ball How To Play Page -->
+    <string name="how_to_play_dancing_ball1">घूमते हुए बॉल का पथ एक आकृति की रूपरेखा तैयार करता है.</string>
+    <string name="how_to_play_dancing_ball2">सही विकल्प को दबाए.</string>
+
+    <!-- Shapes How To Play Page -->
+    <string name="how_to_play_shapes1">दो समान आकृतियों को दबायें.</string>
+
+    <!-- Match It How To Play Page -->
+    <string name="how_to_play_match_it1"> यदि शब्द का मतलब एवं शब्द का रंग समान है , "सही' बटन दबाए</string>
+    <string name="how_to_play_match_it2">और यदि समान नही है, ग़लत बटन दबाए.</string>
+
+    <!-- Match It Pro How To Play Page -->
+    <string name="how_to_play_match_it_pro1"> यदि मतलब बॉक्स में शब्द का मतलब रंग वाले बॉक्स में शब्द के रंग के समान है , "सही' बटन दबाए.</string>
+    <string name="how_to_play_match_it_pro2">और यदि समान नही है, ग़लत बटन दबाए.</string>
+
+    <!-- Reversal How To Play Page -->
+    <string name="how_to_play_reversal1"> जब बॉल का रंग हरा हो ये स्वाइप करने के दिशा में आगे बढ़ेगी.</string>
+    <string name="how_to_play_reversal2">जब बॉल का रंग लाल हो तो ये स्वाइप करने के विपरीत दिशा में आगे बढ़ेगी.</string>
+    <string name="how_to_play_reversal3"> आपका लक्ष्य/उद्देश्य बाल को चमकती टोकरी में डालना है.</string>
+
+    <!-- Reversal Pro How To Play Page -->
+    <string name="how_to_play_reversal_pro1">आपका लक्ष्य/उद्देश्य बाल  को बॉल के बाहरी छल्ले के रंग वाली टोकरी में डालना है.</string>
+
+    <!-- Money Game How To Play Page -->
+    <string name="how_to_play_money_game1">  > दबाए यदि बाए बॉक्स मे सिक्कों का योग ज़्यादा है</string>
+    <string name="how_to_play_money_game2">  > दबाए यदि दाए बॉक्स मे सिक्कों का योग ज़्यादा है. </string>
+    <string name="how_to_play_money_game3">  = दबाए यदि दोनो बॉक्स मे सिक्कों का योग समान है.</string>
+
+    <!-- Solve It How To Play Page -->
+    <string name="how_to_play_solve_it1"> समीकरण गणना कीपॅड का उपयोग कर जवाब दे.</string>
+    <string name="how_to_play_solve_it2">अपने इनपुट को निरस्त करने के लिए C  दबाए </string>
+    <string name="how_to_play_solve_it3"> समीकरण छोड़ने के लिए प्ले बटन दबाए.</string>
+
+    <!-- After Math How To Play Page -->
+    <string name="how_to_play_after_math1"> जाँच करे की दिया गया समीकरण सही है या ग़लत.</string>
+    <string name="how_to_play_after_math2"> तदनुसार सही या ग़लत बटन दबाए. </string>
+
+    <!-- Speed Shop How To Play Page -->
+    <string name="how_to_play_speed_shop1">केंद्रीय वस्तु को उस तरफ स्वाइप करें जहा से ये संबंध रखता है .</string>
+
+    <!-- Spot It How To Play Page -->
+    <string name="how_to_play_spot_it1">दूरबीन से पास होते हुए वस्तु को चुने.</string>
+    <string name="how_to_play_spot_it2">  दिए गये विकल्पो में से उसी वस्तु को दबाए.</string>
+
+    <!-- Spot It Pro How To Play Page -->
+    <string name="how_to_play_spot_it_pro1"> एक साथ एक समय दूरबीन से पास होते हुए दो वस्तुओं को चुने.</string>
+    <string name="how_to_play_spot_it_pro2">दिए गये विकल्पो में से उन्ही दोनो वस्तुओं को दबाए.</string>
+
+    <!-- Brain Flash How To Play Page -->
+    <string name="how_to_play_brain_flash1">घूमते हुए धूसर  रंग के गोलो पर ध्यान केंद्रित करे.</string>
+    <string name="how_to_play_brain_flash2">उस गोले को दबाए जो जल्दी से जल्दी हरे रंग मे बदल जाता हो.</string>
+    <string name="how_to_play_brain_flash3"> यदि ये लाल रंग में बदलता हो तो ना दबाए.</string>
+
+
+    <string name="title_activity_how_to_play_after_match">कैसे खेलें आफ़टरमैथ</string>
+    <string name="title_activity_how_to_play_match_it">कैसे खेलें मैच ईट</string>
+    <string name="title_activity_how_to_play_match_it_pro">कैसे खेलें मैच ईट प्रो</string>
+    <string name="title_activity_how_to_play_memorymatrix">कैसे खेलें मेमोरी मेट्रिक्स</string>
+    <string name="title_activity_how_to_play_memorymatrix_pro">कैसे खेले मेमोरी मेट्रिक्सप्रों </string>
+    <string name="title_activity_how_to_play_money">कैसे खेलें मनी गेम</string>
+    <string name="title_activity_how_to_play_reversal">कैसे खेले रिवर्सलं</string>
+    <string name="title_activity_how_to_play_reversal_pro">कैसे खेलें रिवर्सल  प्रो </string>
+    <string name="title_activity_how_to_play_shapes">कैसे खेलें आकृति </string>
+    <string name="title_activity_how_to_play_solve_it">कैसे खेलें सॉल्व इट </string>
+    <string name="title_activity_how_to_play_speed_shop">कैसे खेलें स्पीड शॉप</string>
+    <string name="title_activity_how_to_play_spot_it">कैसे खेलें  स्पॉट इट</string>
+    <string name="title_activity_how_to_play_spot_it_pro">कैसे खेलें  स्पॉट इट प्रो </string>
+    <string name="title_activity_how_to_play_track_the_route">कैसे खेलें ट्रॅक द रूट </string>
+    <string name="title_activity_game_over">खेल खत्म</string>
+    <string name="title_activity_form">Form</string>
+
+
+</resources>

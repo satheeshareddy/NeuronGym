@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nuro</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_language_select">LanguageSelect</string>
+    <string name="facebook_app_id">1051723228176233</string>
+    <string name="theam_select">Theam Select</string>
+    <string name="home_page">Home Page</string>
+    <string name="google_maps_key">D1:B7:87:FE:C0:45:A9:42:4C:E3:DA:28:6C:E2:20:99:06:F0:54:1B</string>
+
+
+    <!-- Pause Popup -->
+
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="replay">Replay</string>
+    <string name="instrections">Instructions</string>
+    <string name="sound">Sound </string>
+    <string name="exit_game">Exit Game</string>
+
+    <!-- Slider menu -->
+
+    <string name="home">Home</string>
+    <string name="games">Games</string>
+    <string name="brain_profile">Brain Profile</string>
+    <string name="compare">Compare</string>
+    <string name="leadersbord">LeadersBord</string>
+    <string name="friends">Friends</string>
+    <string name="setting">Setting</string>
+    <string name="language">Language</string>
+    <string name="logout">Logout</string>
+    <string name="exit">Exit</string>
+
+    <!-- Color Name -->
+
+    <string name="blue">BLUE</string>
+    <string name="green">GREEN</string>
+    <string name="white">WHITE</string>
+    <string name="red">RED</string>
+    <string name="orange">ORANGE</string>
+    <string name="violet">VIOLET</string>
+    <string name="brown">BROWN</string>
+    <string name="pink">PINK</string>
+
+    <!-- Languages name -->
+    <string name="select_language">Select Language</string>
+    <string name="english">English</string>
+    <string name="spanish">Español</string>
+    <string name="hindi">हिंदी</string>
+    <string name="chinese">中文</string>
+    <string name="french">Français</string>
+    <string name="japanese">日本人</string>
+    <string name="russian">русский</string>
+    <string name="korean">한국의</string>
+    <string name="german">Deutsch</string>
+    <string name="turkish">Türk</string>
+    <string name="portuguese">Português</string>
+    <string name="italian">italiano</string>
+    <string name="arabic">العربية</string>
+
+    <!-- Login Screen -->
+    <string name="LoginWithfacebook">Sign In with Facebook </string>
+    <string name="LoginWithtwitter">Sign In with Twitter</string>
+    <string name="LoginWithGoogleplus">Sign In with Google+</string>
+    <string name="LoginWithGmail">Sign In with Gmail</string>
+    <string name="LogupWithfacebook">Sign Up with Facebook </string>
+    <string name="LogupWithtwitter">Sign Up with Twitter</string>
+    <string name="LogupWithGoogleplus">Sign Up with Google+</string>
+    <string name="LogupWithGmail">Sign Up with Gmail</string>
+    <string name="AlreadyHaveAccount">Already have an Account?</string>
+    <string name="TermsnConditions">Terms and Conditions</string>
+    <string name="PrivacyPolicy">Privacy Policy</string>
+
+    <!-- Sign In Page -->
+    <string name="Signin">Sign In</string>
+
+    <!-- Game over Page -->
+    <string name="accuracy">Accuracy :</string>
+
+    <!-- Select Theme Page -->
+    <string name="title_activity_theme_select">ThemeSelect</string>
+    <string name="Light">Light</string>
+    <string name="Dark">Dark</string>
+    <string name="SelectTheme">Select Theme</string>
+    <string name="reminder">Reminders</string>
+    <string name="app_id">1544789295785047</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="permission_not_granted">Unable to perform selected action because permissions were not granted.</string>
+    <string name="ok">OK</string>
+    <string name="hello_user">Hi %1$s!</string>
+    <string name="success">Success</string>
+    <string name="successfully_posted_post">Successfully posted \'%1$s\'.\nPost ID: %2$s</string>
+    <string name="error">Error</string>
+    <string name="photo_post">Photo Post</string>
+    <string name="exception">Exception: %1$s</string>
+    <string name="you_picked">You picked:</string>
+    <string name="no_friends_selected">&lt;No friends selected></string>
+    <string name="no_place_selected">&lt;No place selected></string>
+    <string name="pick_seattle_place">Pick a Seattle Place</string>
+
+    <!-- Home Page -->
+    <string name="title_activity_home_page">Home</string>
+    <string name="over_view">OverView</string>
+    <string name="history">History</string>
+    <string name="Statistics">Statistics</string>
+
+    <!-- Activity name -->
+    <string name="title_activity_select_language">Select Language</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_brain_profile">Brain Profile</string>
+
+
+    <!-- Leaders Board page -->
+    <string name="title_activity_leaders_board">Leadersboard</string>
+    <string name="catogery_short">Category</string>
+    <string name="location">Location </string>
+    <string name="over_all">Overall</string>
+    <string name="skill_wise">Skill wise</string>
+    <string name="game_wise">Game wise</string>
+    <string name="global">Global</string>
+    <string name="country">Country</string>
+    <string name="your_rank">Your Rankings</string>
+    <string name="your_rank_result">Your Rank</string>
+    <string name="rank">Rank</string>
+    <string name="nationality">Nationality</string>
+    <string name="user_name">UserName</string>
+    <string name="ani">ANI</string>
+
+    <!-- Comparision page -->
+    <string name="title_activity_comparision">Comparision</string>
+    <string name="gender_short">Gender</string>
+    <string name="location_short">Location</string>
+
+    <!-- Shorting for Age selection -->
+    <string name="age_short">Age</string>
+    <string name="age_all">All</string>
+    <string name="age_kid">Kid</string>
+    <string name="age_youth">Youth</string>
+    <string name="age_adult">Adult</string>
+    <string name="age_mid_age">Mid Age</string>
+    <string name="age_elder">Elder</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+
+    <!-- Six Gaming section name -->
+    <string name="attention">Attention</string>
+    <string name="memory">Memory</string>
+    <string name="visual">Visual Perception</string>
+    <string name="flexibility">Flexibility</string>
+    <string name="problem_solving">Problem Solving</string>
+    <string name="speed">Processing Speed</string>
+    <string name="your_standings">Your Standings</string>
+
+    <!-- Brain Profile Activity -->
+    <string name="thirty_days">30 Days</string>
+    <string name="seven_days">7 Days</string>
+    <string name="today">Today</string>
+    <string name="cognitive_change">Cognitive Change</string>
+    <string name="overall1">OverAll</string>
+
+    <!-- Over View Page -->
+    <string name="average_neuron_index">Average Neuron Index(ANI)</string>
+    <string name="brain_workout_distribution">Brain Workout Distribution</string>
+    <string name="title_activity_game_menu">Games</string>
+
+    <!-- 20 Game Name -->
+    <string name="title_activity_game_name">Games</string>
+    <string name="dual_focus">Dual Focus</string>
+    <string name="dual_focus_pro">Dual Focus Pro</string>
+    <string name="blink">Blink</string>
+    <string name="blink_pro">Blink Pro</string>
+    <string name="track_route">Track The Route</string>
+    <string name="memory_matrix">Memory Matrix</string>
+    <string name="memory_matrix_pro">Memory Matrix Pro</string>
+    <string name="dancing_balls">Dancing Balls</string>
+    <string name="shapes">Shapes</string>
+    <string name="match_it">Match It</string>
+    <string name="match_it_pro">Match It Pro</string>
+    <string name="reversal">Reversal</string>
+    <string name="reversal_pro">Reversal Pro</string>
+    <string name="money_game">Money Game</string>
+    <string name="solve_it">Solve It</string>
+    <string name="after_math">After Math</string>
+    <string name="speed_shop">Speed Shop</string>
+    <string name="spot_it">Spot It</string>
+    <string name="spot_it_pro">Spot It Pro</string>
+    <string name="brain_flash">Brain Flash</string>
+    <string name="title_activity_dual_focus_instruction">DualFocusInstruction</string>
+
+    <!-- Dual Focus Instruction Page -->
+    <string name="cognative_skill_trained">Cognitive Skill Trained : </string>
+    <string name="divided_attention">Divided Attention</string>
+    <string name="dual_focus_instruction">Dual Focus helps you to play attention at multiple things
+        at same time thus enhancing your multitasking ability.</string>
+    <string name="your_highest_score">Your Highest Score</string>
+    <string name="score">12500</string>
+    <string name="multiplier_reach">Multiplier Reached</string>
+    <string name="multiplier_completed">2</string>
+    <string name="how_to_play">How To Play?</string>
+    <string name="start_game">Start</string>
+    <string name="title_activity_dual_focus_pro_instruction">DualFocusProInstruction</string>
+
+    <!-- Dual Focus Pro Instruction Page -->
+    <string name="dual_focus_pro_instruction">Dual Focus Pro helps you to play attention at multiple things
+        at same time thus enhancing your multitasking ability.</string>
+    <string name="title_activity_blink_instruction">BlinkInstruction</string>
+
+    <!-- Blink Instruction Page -->
+    <string name="blink_instruction">A digit blinks in the central circle along with an image in any one of the smaller circles.</string>
+    <string name="title_activity_blink_pro_instruction">BlinkProInstruction</string>
+    <string name="title_activity_track_the_route">TrackTheRoute</string>
+    <string name="title_activity_memory_matrix">MemoryMatrix</string>
+    <string name="title_activity_memory_matrix_pro_instruction">MemoryMatrixProInstruction</string>
+    <string name="title_activity_dancing_ball_instruction">DancingBallInstruction</string>
+    <string name="title_activity_shapes_instruction">ShapesInstruction</string>
+    <string name="title_activity_match_it_instruction">MatchItInstruction</string>
+    <string name="title_activity_match_it_pro_instruction">MatchItProInstruction</string>
+    <string name="title_activity_reversal_instruction">ReversalInstruction</string>
+    <string name="title_activity_reversal_pro_instruction">ReversalProInstruction</string>
+    <string name="title_activity_money_game_instruction">MoneyGameInstruction</string>
+    <string name="title_activity_solve_it_instruction">SolveItInstruction</string>
+    <string name="title_activity_after_math_instruction">AfterMathInstruction</string>
+    <string name="title_activity_speed_shop_instruction">SpeedShopInstruction</string>
+    <string name="title_activity_spot_it_instruction">SpotItInstruction</string>
+    <string name="title_activity_spot_it_pro_instruction">SpotItProInstruction</string>
+    <string name="title_activity_brain_flash_instruction">BrainFlashInstruction</string>
+
+    <!-- Track The Route Instruction Page -->
+    <string name="track_route_instruction">Track the route enhances your working as well as
+        navigational memory. It helps your brain remember pathways and different routes.</string>
+
+    <!-- Memory Matrix Instruction Page -->
+    <string name="memory_matrix_instruction">Memory Matrix enhances your spatial memory and your
+        ability to recall an objects location.</string>
+
+    <!-- Memory Matrix Pro Instruction Page -->
+    <string name="memory_matrix_pro_instruction">Memory Matrix Pro enhances your spatial memory and
+        your ability to recall an objects location.</string>
+
+    <!-- Dancing Balls  Instruction Page -->
+    <string name="dancing_balls_instruction">Dancing Balls helps you to process information visually
+        easily and efficiently, e.g. while driving a car.</string>
+
+    <!-- Shapes Instruction Page -->
+    <string name="shapes_instruction">Shapes helps you in making your brain capable of ignoring
+        redundant data and at the same time taking up the required data.</string>
+
+    <!-- Match It Instruction Page -->
+    <string name="match_it_instruction">Match it enhances your mental flexibility especially in
+        touch and go decision making situations</string>
+
+    <!-- Match It Pro Instruction Page -->
+    <string name="match_it_pro_instruction">Match it Pro enhances your mental flexibility
+        especially in touch and go decision making situations</string>
+
+    <!-- Reversal Instruction Page -->
+    <string name="reversal_instruction">Reversal helps you in improving your cognitive control by
+        enhancing your ability of shifting the focus of attention quickly</string>
+
+    <!-- Reversal Pro Instruction Page -->
+    <string name="reversal_pro_instruction">Reversal Pro helps you in improving your cognitive
+        control by enhancing your ability of shifting the focus of attention quickly</string>
+
+    <!-- Money Game Instruction Page -->
+    <string name="money_game_instruction">Money Game enhances your problem solving skills by
+        stimulating your quantitative reasoning abilities.</string>
+
+    <!-- Solve It Instruction Page -->
+    <string name="solve_it_instruction">Solve It helps to calculate equations
+        efficiently and quickly.</string>
+
+    <!-- After Math Instruction Page -->
+    <string name="after_math_instruction">Aftermath helps you in decision making with respect
+        to quantitative data efficiently.</string>
+
+    <!-- Speed Shop Instruction Page -->
+    <string name="speed_shop_instruction">Speed Shop increases your processing speed in small
+        decision making thus increasing your overall efficiency.</string>
+
+    <!-- Spot It Instruction Page -->
+    <string name="spot_it_instruction">Spot it fastens the information processing
+        speed of your brain.</string>
+
+    <!-- Spot It Pro Instruction Page -->
+    <string name="spot_it_pro_instruction">Spot it Pro fastens the information processing
+        speed of your brain.</string>
+
+    <!-- Brain Flash Instruction Page -->
+    <string name="brain_flash_instruction">Brain Flash helps you to enhance your reflex action
+        via increasing the processing speed of your brain.</string>
+    <string name="title_activity_dual_focus_game">DualFocusGame</string>
+    <string name="title_activity_how_to_play_dual_focuse">HowToPlayDualFocuse</string>
+    <string name="title_activity_dual_focus_pro_game">DualFocusProGame</string>
+    <string name="title_activity_blink_game">BlinkGame</string>
+    <string name="title_activity_blink_pro_game">BlinkProGame</string>
+    <string name="title_activity_memory_matrixgame">MemoryMatrixgame</string>
+    <string name="title_activity_memory_matrix_pro_game">MemoryMatrixProGame</string>
+    <string name="title_activity_shapes_game">ShapesGame</string>
+    <string name="title_activity_match_it_game">MatchItGame</string>
+    <string name="title_activity_match_it_pro_game">MatchItProGame</string>
+    <string name="title_activity_reversal_game">ReversalGame</string>
+    <string name="title_activity_reversal_pro_game">ReversalProGame</string>
+    <string name="title_activity_money_game">MoneyGame</string>
+    <string name="title_activity_after_match_game">AfterMatchGame</string>
+    <string name="title_activity_brain_flash_game">BrainFlashGame</string>
+    <string name="title_activity_spot_it_game">SpotItGame</string>
+    <string name="title_activity_spot_it_pro_game">SpotItProGame</string>
+    <string name="title_activity_solve_it_game">SolveItGame</string>
+    <string name="title_activity_dancing_ball_game">DancingBallGame</string>
+    <string name="title_activity_track_the_route_game">TrackTheRouteGame</string>
+    <string name="title_activity_speed_shop_game">SpeedShopGame</string>
+    <string name="title_activity_how_to_play_dual_focuspro">HowToPlayDualFocuspro</string>
+    <string name="title_activity_how_to_play_blink">HowToPlayBlink</string>
+    <string name="title_activity_how_to_play_blink_pro">HowToPlayBlinkPro</string>
+    <string name="title_activity_how_to_play_brain_flash">HowToPlayBrainFlash</string>
+    <string name="title_activity_how_to_play_dancing_ball">HowToPlayDancingBall</string>
+
+    <!-- Dual Focus How To Play Page -->
+    <string name="how_to_play_dual_focus1">A digit blinks in the central circle along with an image in any
+        one of the smaller circles.</string>
+    <string name="how_to_play_dual_focus2">Tap the digit that appeared.</string>
+    <string name="how_to_play_dual_focus3"> And the smaller circle where image appeared.</string>
+    <string name="how_to_play_dual_focus4">Answer correctly 4 in a row to increase your score multiplier.</string>
+
+    <!-- Dual Focus Pro How To Play Page -->
+    <string name="how_to_play_dual_focus_pro"> Tap the image that appeared.</string>
+
+    <!-- Blink How To Play Page -->
+    <string name="how_to_play_blink1">A stream of grey alphabets blinks along with a digit and a
+        green coloured alphabet.</string>
+    <string name="how_to_play_blink2">Tap that digit and the green coloured alphabet from the
+        given options.</string>
+
+    <!-- Blink Pro How To Play Page -->
+    <string name="how_to_play_blink_pro1">  A stream of grey alphabets blinks with a digit,
+         a green alphabet and a blue alphabet.</string>
+    <string name="how_to_play_blink_pro2">Tap on the digit as well as the green and blue alphabet
+        from the respective options.</string>
+
+    <!-- Track The Route How To Play Page -->
+    <string name="how_to_play_track_the_route1">The aeroplane connects the dots to form a
+        particular pattern.</string>
+    <string name="how_to_play_track_the_route2">Memorize the pattern and recreate it by tapping
+        on the dots in the same order.</string>
+
+    <!-- Memory Matrix How To Play Page -->
+    <string name="how_to_play_memory_matrix1">Memorize the circles that glows red.</string>
+    <string name="how_to_play_memory_matrix2">Tap the same circles after they disappear.</string>
+
+    <!-- Memory Matrix Pro Pro How To Play Page -->
+    <string name="how_to_play_memory_matrix_pro1">Memorize the circles that glows blue or red.</string>
+    <string name="how_to_play_memory_matrix_pro2"> Tap only the red circles if indicator above
+        shows red.</string>
+    <string name="how_to_play_memory_matrix_pro3">Tap only the blue circles if indicator above
+        shows blue.</string>
+
+    <!-- Dancing Ball How To Play Page -->
+    <string name="how_to_play_dancing_ball1">Path of the moving ball creates an outline of a shape.</string>
+    <string name="how_to_play_dancing_ball2">Tap on the correct option.</string>
+
+    <!-- Shapes How To Play Page -->
+    <string name="how_to_play_shapes1">Tap on two identical shapes.</string>
+
+    <!-- Match It How To Play Page -->
+    <string name="how_to_play_match_it1"> If meaning of the text is same as the colour of the
+        text, tap ‘correct’ button</string>
+    <string name="how_to_play_match_it2">And if it is not same tap ‘wrong’ button.</string>
+
+    <!-- Match It Pro How To Play Page -->
+    <string name="how_to_play_match_it_pro1"> If meaning of the text in meaning box is same as
+         the colour of the text in colour box tap ‘correct’ button.</string>
+    <string name="how_to_play_match_it_pro2"> And if it is not same tap ‘wrong’ button.</string>
+
+    <!-- Reversal How To Play Page -->
+    <string name="how_to_play_reversal1"> When the ball is green it will move in the direction
+        of your swipe.</string>
+    <string name="how_to_play_reversal2">When the ball is red it will move in the direction
+        opposite to your swipe.</string>
+    <string name="how_to_play_reversal3"> Your objective is to put the ball in the glowing
+         basket.</string>
+
+    <!-- Reversal Pro How To Play Page -->
+    <string name="how_to_play_reversal_pro1">Your objective is to put the ball in the basket of
+        same colour as of the outer ring of the ball.</string>
+
+    <!-- Money Game How To Play Page -->
+    <string name="how_to_play_money_game1"> Tap ‘>‘ if the sum of coins in the left box is more.</string>
+    <string name="how_to_play_money_game2"> Tap ‘&lt;‘ if the sum of coins in the right box is more. </string>
+    <string name="how_to_play_money_game3"> Tap ‘=‘ if the sum of coins in both the boxes are same.</string>
+
+    <!-- Solve It How To Play Page -->
+    <string name="how_to_play_solve_it1"> Calculate equation and answer using the keypad.</string>
+    <string name="how_to_play_solve_it2">Press C to cancel your input </string>
+    <string name="how_to_play_solve_it3"> Press play button to skip that equation.</string>
+
+    <!-- After Math How To Play Page -->
+    <string name="how_to_play_after_math1"> Check whether the given equation is right or wrong.</string>
+    <string name="how_to_play_after_math2"> Tap ‘correct’ or ‘wrong’ button accordingly. </string>
+
+    <!-- Speed Shop How To Play Page -->
+    <string name="how_to_play_speed_shop1">Swipe the central object towards the category to
+        which it belongs.</string>
+
+    <!-- Spot It How To Play Page -->
+    <string name="how_to_play_spot_it1">Spot the object passing through the binocular.</string>
+    <string name="how_to_play_spot_it2">  Tap the same object from the given options.</string>
+
+    <!-- Spot It Pro How To Play Page -->
+    <string name="how_to_play_spot_it_pro1"> Spot the two objects passing simultaneously through
+         the binocular.</string>
+    <string name="how_to_play_spot_it_pro2">Tap the same two objects from the given options.</string>
+
+    <!-- Brain Flash How To Play Page -->
+    <string name="how_to_play_brain_flash1">Concentrate on the rotating grey circles.</string>
+    <string name="how_to_play_brain_flash2">Tap the circle which changes to green as quickly as
+        possible.</string>
+    <string name="how_to_play_brain_flash3"> Do not tap if it turns red.</string>
+    <string name="title_activity_how_to_play_after_match">HowToPlayAfterMatch</string>
+    <string name="title_activity_how_to_play_match_it">HowToPlayMatchIt</string>
+    <string name="title_activity_how_to_play_match_it_pro">HowToPlayMatchItPro</string>
+    <string name="title_activity_how_to_play_memorymatrix">HowToPlayMemorymatrix</string>
+    <string name="title_activity_how_to_play_memorymatrix_pro">HowToPlayMemorymatrixPro</string>
+    <string name="title_activity_how_to_play_money">HowToPlayMoney</string>
+    <string name="title_activity_how_to_play_reversal">HowToPlayReversal</string>
+    <string name="title_activity_how_to_play_reversal_pro">HowToPlayReversalPro</string>
+    <string name="title_activity_how_to_play_shapes">HowToPlayShapes</string>
+    <string name="title_activity_how_to_play_solve_it">HowToPlaySolveIt</string>
+    <string name="title_activity_how_to_play_speed_shop">HowToPlaySpeedShop</string>
+    <string name="title_activity_how_to_play_spot_it">HowToPlaySpotIt</string>
+    <string name="title_activity_how_to_play_spot_it_pro">HowToPlaySpotItPro</string>
+    <string name="title_activity_how_to_play_track_the_route">HowToPlayTrackTheRoute</string>
+    <string name="title_activity_game_over">GameOver</string>
+    <string name="title_activity_form">Form</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login_in">LoginIn</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

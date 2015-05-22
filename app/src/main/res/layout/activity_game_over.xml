@@ -1,0 +1,239 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.edlogiq.neurongym.neurongym.GameOver"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto">
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/layoute1"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/hale_circul_score">
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/scoretextview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="Score"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/scorevalue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:text="Score"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"  />
+
+            </RelativeLayout>
+
+       <LinearLayout
+           android:id="@+id/layoute2"
+           android:layout_width="300dp"
+           android:layout_height="50dp"
+           android:layout_below="@+id/layoute1"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="10dp"
+           android:orientation="horizontal"
+           android:gravity="center"
+           android:background="@drawable/hale_circul_score">
+
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:orientation="vertical">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="@color/white"
+                   android:textSize="15dp"
+                   android:text="@string/average_neuron_index"/>
+
+               <com.gc.materialdesign.views.Slider
+                   android:id="@+id/slider"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_centerInParent="true"
+                   android:layout_marginLeft="30dp"
+                   android:layout_marginRight="20dp"
+                   android:background="@color/red"
+                   materialdesign:max="1000"
+                   materialdesign:min="0" />
+
+               </LinearLayout>
+           <TextView
+               android:id="@+id/ani_score"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/white"
+               android:layout_marginLeft="10dp"
+               android:textSize="20dp"
+               android:text="500"/>
+
+           </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoute3"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/layoute2"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/cyan">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:text="@string/accuracy"/>
+
+        <TextView
+            android:id="@+id/accuracy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:text="80%"/>
+        </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoute4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/layoute3"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/hale_circul_score">
+
+       <LinearLayout
+           android:id="@+id/restartgame"
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:layout_centerVertical="true"
+           android:gravity="center"
+           android:background="@drawable/red">
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:background="@drawable/game_end"/>
+           </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/gamepage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:background="@drawable/red">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/game"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Slide"
+            android:textSize="25dp"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layoute5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:layout_below="@+id/layoute4">
+        <RelativeLayout
+            android:id="@+id/facebook"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:background="@drawable/facebook">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:textSize="20dp"
+                android:text="Facebook"/>
+
+            </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tweeter"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/twitter">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:textSize="20dp"
+                android:text="Tweeter"/>
+
+    </RelativeLayout>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/cyan"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/brain_profile"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/white"
+            android:text="@string/brain_profile"/>
+
+        </LinearLayout>
+
+</RelativeLayout>

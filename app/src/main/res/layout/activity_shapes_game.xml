@@ -1,0 +1,552 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/shapesgame"
+    tools:context=".MainActivity">
+
+
+    <!--  Top layout -->
+
+    <RelativeLayout
+        android:id="@+id/toplayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/cyan">
+
+        <LinearLayout
+            android:id="@+id/timelayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/clock" />
+
+            <TextView
+                android:id="@+id/timertextview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="ab"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/scorelayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:id="@+id/scoreimageview"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/score_icon" />
+
+            <TextView
+                android:id="@+id/scoretextview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="ab"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutepause"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/pause"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/progressBarlayoute"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/toplayout">
+
+
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="200dp"
+            android:layout_height="3dp"
+            android:progressDrawable="@drawable/process_bar"
+            android:id="@+id/progressBar"
+            android:layout_centerInParent="true"
+            android:max="100"
+            android:layout_centerHorizontal="true" />
+
+        <LinearLayout
+            android:id="@+id/processlayoute1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toLeftOf="@+id/progressBar"
+            android:gravity="center"
+            android:background="@drawable/circle_text_cyan">
+            <TextView
+                android:id="@+id/processtext1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:text="x1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/processlayoute2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:background="@drawable/circle_text">
+            <TextView
+                android:id="@+id/processtext2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="@color/gray"
+                android:text="x2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/processlayoute3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@+id/progressBar"
+            android:gravity="center"
+            android:background="@drawable/circle_text">
+            <TextView
+                android:id="@+id/processtext3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="@color/gray"
+                android:text="x3"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toplayout"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <LinearLayout
+            android:id="@+id/gamelayoute"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <!--  1 Row layout -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:id="@+id/gamelayout1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/cyan"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageview1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/gamelayout2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/orange"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageview2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/gamelayout3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/gray"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageview3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <!--  2 Row layout -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:id="@+id/gamelayout4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/green"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageview4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/gamelayout5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/red"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageview5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/gamelayout6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/violet"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageview6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <!--  3 Row layout -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:id="@+id/gamelayout7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/blue"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageview7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/gamelayout8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/brown"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageview8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/gamelayout9"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/pink"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageview9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/righttick"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/tick_cross"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone"></LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageright"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/tick"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:id="@+id/wrongcross"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/ring_cross"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone"></LinearLayout>
+
+    <ImageView
+        android:id="@+id/imagewrong"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/cross"
+        android:visibility="gone" />
+
+    <!--  Pause  layout -->
+
+
+    <RelativeLayout
+        android:id="@+id/pausepopup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#33FFFFFF"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/resume"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_state"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/resumeimageview"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/resume_icon" />
+
+                <TextView
+                    android:id="@+id/resumetextview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/resume"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View style="@style/Divider" />
+
+            <LinearLayout
+                android:id="@+id/replay"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_state"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/replayimageview"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/replay_icon" />
+
+                <TextView
+                    android:id="@+id/replaytextview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/replay"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View style="@style/Divider" />
+
+            <LinearLayout
+                android:id="@+id/instructions"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_state"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/instructionsimageview"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/instruction_icon" />
+
+                <TextView
+                    android:id="@+id/instructionstextview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/instrections"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View style="@style/Divider" />
+
+            <LinearLayout
+                android:id="@+id/sound"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+
+                android:background="@drawable/btn_state"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/soundimageview"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/sound_on_icon" />
+
+                <TextView
+                    android:id="@+id/soundtextview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/sound"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View style="@style/Divider" />
+
+            <LinearLayout
+                android:id="@+id/exitgame"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_state"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/exitgameimageview"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/exit_game" />
+
+                <TextView
+                    android:id="@+id/exitgametextview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/exit_game"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

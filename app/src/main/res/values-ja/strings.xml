@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">NeuronGym</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">設定</string>
+    <string name="title_activity_language_select">言語を選択</string>
+    <string name="theam_select">テーマを選択する</string>
+    <string name="home_page">ホームページ</string>
+
+
+
+    <!-- Pause Popup -->
+
+    <string name="pause">一時停止</string>
+    <string name="resume">履歴書</string>
+    <string name="replay">リプレイ</string>
+    <string name="instrections">説明書</string>
+    <string name="sound">サウンド </string>
+    <string name="exit_game">ゲーム終了</string>
+
+    <!-- Slider menu -->
+
+    <string name="home">ホーム</string>
+    <string name="games">ゲームズ</string>
+    <string name="brain_profile">脳のプロフィール</string>
+    <string name="compare">比較する</string>
+    <string name="leadersbord">リーダーボード</string>
+    <string name="friends">フレンズ</string>
+    <string name="setting">設定</string>
+    <string name="language">言語</string>
+    <string name="logout">ログアウト</string>
+    <string name="exit">出口</string>
+
+    <!-- Color Name -->
+
+    <string name="blue">青</string>
+    <string name="green">グリーン</string>
+    <string name="white">白</string>
+    <string name="red">赤</string>
+    <string name="orange">オレンジ</string>
+    <string name="violet">バイオレット</string>
+    <string name="brown">ブラウン</string>
+    <string name="pink">ピンク</string>
+
+
+    <!-- Languages name -->
+    <string name="select_language">言語を選択</string>
+
+    <string name="english">English</string>
+    <string name="spanish">Español</string>
+    <string name="hindi">हिंदी</string>
+    <string name="chinese">中文</string>
+    <string name="french">Français</string>
+    <string name="japanese">日本人</string>
+    <string name="russian">русский</string>
+    <string name="korean">한국의</string>
+    <string name="german">Deutsch</string>
+    <string name="turkish">Türk</string>
+    <string name="portuguese">Português</string>
+    <string name="italian">italiano</string>
+    <string name="arabic">العربية</string>
+
+
+    <!-- Login Screen -->
+    <string name="LoginWithfacebook">Facebookのアカウントでログイン </string>
+    <string name="LoginWithtwitter">Twitterでログイン</string>
+    <string name="LoginWithGoogleplus">Google+のアカウントでサインイン</string>
+    <string name="LoginWithLinkedIn">LinkedInのアカウントでサインイン</string>
+    <string name="AlreadyHaveAccount">アカウント取得済み？</string>
+    <string name="TermsnConditions">使用条件</string>
+    <string name="PrivacyPolicy">個人情報ポリシー</string>
+
+    <!-- Sign In Page -->
+    <string name="Signin">ログイン</string>
+
+    <!-- Select Theme Page -->
+    <string name="Light">明るく</string>
+    <string name="Dark">暗く</string>
+    <string name="SelectTheme">テーマの選択</string>
+    <string name="reminder">リマインダー</string>
+
+    <!--Home Page-->
+    <string name="title_activity_home_page">ホームページ</string>
+
+    <string name="over_view">概観</string>
+    <string name="history">履歴</string>
+    <string name="Statistics">統計</string>
+
+    <!--Activity name-->
+    <string name="title_activity_select_language">言語を選択</string>
+    <string name="title_activity_sign_in">アクティビティサインイン</string>
+    <string name="title_activity_brain_profile">脳プロフィール</string>
+
+
+
+    <!--Leaders Board page-->
+    <string name="title_activity_leaders_board">スコアボード</string>
+    <string name="catogery_short">カテゴリー</string>
+    <string name="over_all">概要</string>
+    <string name="skill_wise">スキルワイズ</string>
+    <string name="game_wise">ゲームワイズ</string>
+    <string name="global">世界中</string>
+    <string name="country">カントリー</string>
+    <string name="your_rank">あなたのランキング</string>
+    <string name="your_rank_result">あなたのランク</string>
+
+    <string name="rank">順位</string>
+    <string name="nationality">国籍</string>
+    <string name="user_name">ユーザー名</string>
+    <string name="ani">ANI</string>
+
+    <!--Comparision page-->
+    <string name="title_activity_comparision">比較</string>
+    <string name="gender_short">性別</string>
+    <string name="location_short">場所</string>
+
+    <!--Shorting for Age selection-->
+    <string name="age_short">年齢</string>
+    <string name="age_all">全部</string>
+    <string name="age_kid">子供</string>
+    <string name="age_youth">若年層</string>
+    <string name="age_adult">成人</string>
+    <string name="age_mid_age">中年層</string>
+    <string name="age_elder">高齢層</string>
+    <string name="female">女性</string>
+    <string name="male">男性</string>
+
+    <!--Six Gaming section name-->
+    <string name="attention">注意力</string>
+    <string name="memory">記憶力</string>
+    <string name="visual">ビジュアル</string>
+    <string name="flexibility">柔軟性</string>
+    <string name="problem_solving">問題解決能力</string>
+    <string name="speed">スピード</string>
+    <string name="your_standings">あなたの位置</string>
+
+    <!--Brain Profile Activity-->
+    <string name="thirty_days">30 日間</string>
+    <string name="seven_days">7 日間</string>
+    <string name="today">今日</string>
+    <string name="cognitive_change">認知変化</string>
+    <string name="overall1">総合</string>
+
+    <!--Over View Page-->
+    <string name="average_neuron_index">平均ニューロン指数(ANI)</string>
+    <string name="brain_workout_distribution">脳テスト分布</string>
+    <string name="title_activity_game_menu">ゲームメニュー</string>
+
+    <!-- 20 Game Name -->
+    <string name="dual_focus">デュアル・フォーカス</string>
+    <string name="dual_focus_pro">デュアル・フォーカス プロ</string>
+    <string name="blink">ブリンク</string>
+    <string name="blink_pro">ブリンク プロ</string>
+    <string name="track_route">ルートの追跡</string>
+    <string name="memory_matrix">メモリー・マトリックス</string>
+    <string name="memory_matrix_pro">メモリー・マトリックス プロ</string>
+    <string name="dancing_balls">踊るボール</string>
+    <string name="shapes">シェイプ</string>
+    <string name="match_it">マッチさせよう</string>
+    <string name="match_it_pro">マッチさせよう プロ</string>
+    <string name="reversal">反転</string>
+    <string name="reversal_pro">反転 プロ</string>
+    <string name="money_game">マネー・ゲーム</string>
+    <string name="solve_it">解きましょう</string>
+    <string name="after_math">アフターマス</string>
+    <string name="speed_shop">スピード・ショップ</string>
+    <string name="spot_it">点をつけよう</string>
+    <string name="spot_it_pro">点をつけよう プロ</string>
+    <string name="brain_flash">ブレイン・フラッシュ</string>
+    <string name="title_activity_dual_focus_instruction">デュアルフォーカス命令</string>
+
+
+    <!--Dual Focus Instruction Page-->
+    <string name="cognative_skill_trained">認識能力トレーニング ： </string>
+    <string name="divided_attention">分割的注意力</string>
+    <string name="dual_focus_instruction">デュアル・フォーカス は、複数のものに同時に注意を向けることで、並行作業能力を養います。
+        デュアル・フォーカス は、複数のものに同時に注意を向けることで、並行作業能力を養います。	デュアル・フォーカス は、複数のものに同時に注意を向けることで、並行作業能力を養います。	デュアル・フォーカス は、複数のものに同時に注意を向けることで、並行作業能力を養います。	デュアル・フォーカス は、複数のものに同時に注意を向けることで、並行作業能力を養います。	デュアル・フォーカス は、複数のものに同時に注意を向けることで、並行作業能力を養います。	デュアル・フォーカス は、複数のものに同時に注意を向けることで、並行作業能力を養います。</string>
+    <string name="your_highest_score">最高得点</string>
+    <string name="score">12500</string>
+    <string name="multiplier_reach">マルチプレイヤー</string>
+    <string name="multiplier_completed">2</string>
+    <string name="how_to_play">プレイの仕方</string>
+    <string name="start_game">スタート</string>
+
+    <string name="title_activity_dual_focus_pro_instruction">デュアルフォーカスプロ命令</string>
+
+    <!-- Dual Focus Pro Instruction Page -->
+    <string name="dual_focus_pro_instruction">デュアル・フォーカス は、複数のものに同時に注意を向けることで、並行作業能力を養います。	デュアル・フォーカス は、複数のものに同時に注意を向けることで、並行作業能力を養います。	デュアル・フォーカス は、複数のものに同時に注意を向けることで、並行作業能力を養います。	デュアル・フォーカス は、複数のものに同時に注意を向けることで、並行作業能力を養います。	デュアル・フォーカス は、複数のものに同時に注意を向けることで、並行作業能力を養います。	デュアル・フォーカス は、複数のものに同時に注意を向けることで、並行作業能力を養います。	デュアル・フォーカス は、複数のものに同時に注意を向けることで、並行作業能力を養います。
+    </string>
+    <string name="title_activity_blink_instruction">ブリンク命令</string>
+
+    <!-- Blink Instruction Page -->
+    <string name="blink_instruction">ブリンク は、あなたの周りの要素に素早く、かつ正確に認識する能力を養うのに最高の注意力ゲームです。
+    </string>
+    <string name="title_activity_blink_pro_instruction">プロ命令ブリンク</string>
+    <string name="title_activity_track_the_route">ルートを追跡</string>
+    <string name="title_activity_memory_matrix">記憶行列</string>
+    <string name="title_activity_memory_matrix_pro_instruction">メモリマトリックスプロ命令</string>
+    <string name="title_activity_dancing_ball_instruction">ボール命令ダンス</string>
+    <string name="title_activity_shapes_instruction">シェイプ命令</string>
+    <string name="title_activity_match_it_instruction">マッチIT命令</string>
+    <string name="title_activity_match_it_pro_instruction">マッチITプロフェッショナル命令</string>
+    <string name="title_activity_reversal_instruction">逆転命令</string>
+    <string name="title_activity_reversal_pro_instruction">逆転プロ命令</string>
+    <string name="title_activity_money_game_instruction">マネーゲーム命令</string>
+    <string name="title_activity_solve_it_instruction">IT命令を解く</string>
+    <string name="title_activity_after_math_instruction">数学命令の後</string>
+    <string name="title_activity_speed_shop_instruction">スピードショップ命令</string>
+    <string name="title_activity_spot_it_instruction">スポットIT命令</string>
+    <string name="title_activity_spot_it_pro_instruction">スポットITプロフェッショナル命令</string>
+    <string name="title_activity_brain_flash_instruction">脳フラッシュ命令</string>
+
+    <!--Track The Route Instruction Page-->
+    <string name="track_route_instruction">ルートの追跡 は、あなたの作業記憶力とナビゲーション記憶力を養います。それまでに通った道筋とそうでないルートをあなたの脳が記憶するようにします。
+    </string>
+
+
+    <!--Memory Matrix Instruction Page-->
+    <string name="memory_matrix_instruction">メモリー・マトリックス は、あなたの空間記憶力と物の位置を思い出す能力を養います。
+    </string>
+
+    <!--Memory Matrix Pro Instruction Page-->
+    <string name="memory_matrix_pro_instruction">メモリー・マトリックス は、あなたの空間記憶力と物の位置を思い出す能力を養います。
+    </string>
+
+    <!--Dancing Balls  Instruction Page-->
+    <string name="dancing_balls_instruction">踊るボール は、あなたの素早く効果的な視覚的データ処理能力を養います。例えば車の運転中など。
+    </string>
+
+    <!--Shapes Instruction Page-->
+    <string name="shapes_instruction">シェイプ は、あなたの脳が余計なデータを無視すると同時に必要なデータを取得する能力を養います。
+    </string>
+
+    <!--Match It Instruction Page-->
+    <string name="match_it_instruction">マッチさせよう は、関連付けて状況を決断するという、あなたの精神的柔軟性を養います。
+    </string>
+
+    <!--Match It Pro Instruction Page-->
+    <string name="match_it_pro_instruction">マッチさせよう は、関連付けて状況を決断するという、あなたの精神的柔軟性を養います。
+    </string>
+
+    <!--Reversal Instruction Page-->
+    <string name="reversal_instruction">反転 は、注意を向けたものを素早く変える能力を養うことで、あなたの認知制御力を発達させます。
+    </string>
+
+    <!--Reversal Pro Instruction Page-->
+    <string name="reversal_pro_instruction">反転 は、注意を向けたものを素早く変える能力を養うことで、あなたの認知制御力を発達させます。
+    </string>
+
+    <!--Money Game Instruction Page-->
+    <string name="money_game_instruction">マネー・ゲーム は、あなたの定量推測能力をシュミレートすることで、問題解決能力を養います。
+    </string>
+
+    <!--Solve It Instruction Page-->
+    <string name="solve_it_instruction">解きましょう は、方程式を素早く計算する能力を養います。
+    </string>
+
+    <!--After Math Instruction Page-->
+    <string name="after_math_instruction">アフターマス は、定量データに対する決断を効果的に行う力を養います。
+    </string>
+
+    <!--Speed Shop Instruction Page-->
+    <string name="speed_shop_instruction">スピード・ショップ は、全体を効果的に通した小さな決定をすることで、あなたの処理能力を向上させます。
+    </string>
+
+    <!--Spot It Instruction Page-->
+    <string name="spot_it_instruction">印をつけよう は、あなたの情報処理能力を早めます。
+    </string>
+
+    <!--Spot It Pro Instruction Page-->
+    <string name="spot_it_pro_instruction">印をつけよう は、あなたの情報処理能力を早めます。
+    </string>
+
+
+    <!--Brain Flash Instruction Page-->
+    <string name="brain_flash_instruction">ブレイン・フラッシュ は、あなたの脳の処理能力を発達させることで、反射神経を養います。
+    </string>
+
+
+
+
+
+
+    <!-- Dual Focus How To Play Page -->
+    <string name="how_to_play_dual_focus1">小さい円のいずれかにおいて、画像と一緒に中央の円内の数字が点滅します。</string>
+    <string name="how_to_play_dual_focus2">現れた数字をタップします。</string>
+    <string name="how_to_play_dual_focus3">現れた画像をタップします。</string>
+    <string name="how_to_play_dual_focus4">abhinav</string>
+
+    <!-- Dual Focus Pro How To Play Page -->
+    <string name="how_to_play_dual_focus_pro"> 画像が表示された小さい円をタップします。</string>
+
+    <!-- Blink How To Play Page -->
+    <string name="how_to_play_blink1">灰色のアルファベットの流れは、数字と緑色のアルファベットと一緒に点滅します。</string>
+    <string name="how_to_play_blink2">与えられた選択肢の中からその数字と緑色のアルファベットをタップします。</string>
+
+    <!-- Blink Pro How To Play Page -->
+    <string name="how_to_play_blink_pro1">  灰色のアルファベットの流れは、数字、アルファベット、緑、青のアルファベットで点滅します。</string>
+    <string name="how_to_play_blink_pro2">数字だけでなく、それぞれの選択肢の中から、緑、青のアルファベットをタップします。</string>
+
+    <!-- Track The Route How To Play Page -->
+    <string name="how_to_play_track_the_route1">飛行機は、特定のパターンを形成するドットを接続する。</string>
+    <string name="how_to_play_track_the_route2">パターンを記憶し、同じ順序でのドットをタップして、それを再作成します。</string>
+
+    <!-- Memory Matrix How To Play Page -->
+    <string name="how_to_play_memory_matrix1">赤く点灯円を記憶します。</string>
+    <string name="how_to_play_memory_matrix2">彼らが消えた後、同じサークルをタップします。</string>
+
+    <!-- Memory Matrix Pro Pro How To Play Page -->
+    <string name="how_to_play_memory_matrix_pro1">青や赤の点灯円を記憶します。</string>
+    <string name="how_to_play_memory_matrix_pro2"> インジケータが上の赤い表示されている場合のみ、赤い丸をタップします。</string>
+    <string name="how_to_play_memory_matrix_pro3">インジケータが上記の青い表示されている場合のみ、青い円をタップします。</string>
+
+    <!-- Dancing Ball How To Play Page -->
+    <string name="how_to_play_dancing_ball1">移動するボールのパスは、形状のアウトラインを作成します。</string>
+    <string name="how_to_play_dancing_ball2">正しいオプションをタップします。</string>
+
+    <!-- Shapes How To Play Page -->
+    <string name="how_to_play_shapes1">2同一の形状をタップします。</string>
+
+    <!-- Match It How To Play Page -->
+    <string name="how_to_play_match_it1"> テキストの意味は、テキストの色、タップ「正しい」ボタンと同じである場合</string>
+    <string name="how_to_play_match_it2">そして、同一のタップは「誤った」ボタンではない場合。</string>
+
+    <!-- Match It Pro How To Play Page -->
+    <string name="how_to_play_match_it_pro1"> 意味がボックス内のテキストの意味は、カラーボックスタップ「正しい」ボタンのテキストの色と同じである場合。</string>
+    <string name="how_to_play_match_it_pro2"> そして、同一のタップは「誤った」ボタンではない場合。</string>
+
+    <!-- Reversal How To Play Page -->
+    <string name="how_to_play_reversal1"> ボールが緑色の場合、それはあなたのスワイプの方向に移動します。</string>
+    <string name="how_to_play_reversal2">ボールが赤であるとき、それはあなたのスワイプとは逆方向に移動します。</string>
+    <string name="how_to_play_reversal3"> あなたの目的は、熱烈なバスケットにボールを置くことです。</string>
+
+    <!-- Reversal Pro How To Play Page -->
+    <string name="how_to_play_reversal_pro1">あなたの目的は、ボールの外側のリングのように同じ色のバスケットにボールを置くことです。</string>
+
+    <!-- Money Game How To Play Page -->
+    <string name="how_to_play_money_game1"> タップ>左のボックス内の硬貨の合計は以上である場合には。</string>
+    <string name="how_to_play_money_game2"> タップ>右ボックス内の硬貨の合計は以上である場合には。</string>
+    <string name="how_to_play_money_game3"> タップ=ボックスの両方における硬貨の合計が同じである場合。</string>
+
+    <!-- Solve It How To Play Page -->
+    <string name="how_to_play_solve_it1"> 方程式を計算し、キーパッドを使用して答える。</string>
+    <string name="how_to_play_solve_it2">Cキーを押して入力をキャンセルする </string>
+    <string name="how_to_play_solve_it3">プレス再生ボタンは、その方程式をスキップします。</string>
+
+    <!-- After Math How To Play Page -->
+    <string name="how_to_play_after_math1"> 与えられた方程式が正しいか間違っているかどうかを確認してください。</string>
+    <string name="how_to_play_after_math2"> それに応じて「正しい」か「間違った」ボタンをタップします。</string>
+
+    <!-- Speed Shop How To Play Page -->
+    <string name="how_to_play_speed_shop1">それが属するカテゴリに向けて中心的なオブジェクトをスワイプ。</string>
+
+    <!-- Spot It How To Play Page -->
+    <string name="how_to_play_spot_it1">双眼鏡を通過する物体を発見。</string>
+    <string name="how_to_play_spot_it2">  与えられたオプションから同じオブジェクトをタップします。</string>
+
+    <!-- Spot It Pro How To Play Page -->
+    <string name="how_to_play_spot_it_pro1"> 双眼鏡を通して同時に通るつのオブジェクトを見つける。</string>
+    <string name="how_to_play_spot_it_pro2">与えられた選択肢の中から同じ2つのオブジェクトをタップします。</string>
+
+    <!-- Brain Flash How To Play Page -->
+    <string name="how_to_play_brain_flash1">回転灰色の円に集中する。</string>
+    <string name="how_to_play_brain_flash2">可能な限り迅速に緑に変わり円をタップします。</string>
+    <string name="how_to_play_brain_flash3"> それが赤に変わる場合は、タップしないでください。</string>
+
+
+    <string name="title_activity_how_to_play_after_match">余波を再生する方法</string>
+    <string name="title_activity_how_to_play_match_it">マッチそれを再生する方法</string>
+    <string name="title_activity_how_to_play_match_it_pro">マッチProを再生する方法</string>
+    <string name="title_activity_how_to_play_memorymatrix">メモリマトリックスを再生する方法</string>
+    <string name="title_activity_how_to_play_memorymatrix_pro">再生する方法をメモリマトリックスプロ</string>
+    <string name="title_activity_how_to_play_money">お金を再生する方法</string>
+    <string name="title_activity_how_to_play_reversal">逆転を再生する方法</string>
+    <string name="title_activity_how_to_play_reversal_pro">リバーサルプロを再生する方法</string>
+    <string name="title_activity_how_to_play_shapes">シェイプを再生する方法</string>
+    <string name="title_activity_how_to_play_solve_it">それを解決する再生する方法</string>
+    <string name="title_activity_how_to_play_speed_shop">スピードショップを再生する方法</string>
+    <string name="title_activity_how_to_play_spot_it">スポットそれを再生する方法</string>
+    <string name="title_activity_how_to_play_spot_it_pro">スポットそれは、プロを再生する方法</string>
+    <string name="title_activity_how_to_play_track_the_route">トラックザ·ルートを再生する方法</string>
+    <string name="title_activity_game_over">ゲームオーバー</string>
+    <string name="title_activity_form">フォーム</string>
+
+
+</resources>

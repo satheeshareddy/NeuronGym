@@ -1,0 +1,213 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:id="@+id/howtoplaymatchitpro"
+    tools:context="com.edlogiq.neurongym.game.HowToPlayDualFocuspro">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/gray"
+        android:text="@string/how_to_play"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+    <View
+        android:id="@+id/dividerabove"
+        style="@style/Divider"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/textview"
+        android:layout_marginTop="20dp" />
+
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/dividerbelow"
+        android:layout_below="@+id/dividerabove"
+        android:layout_toLeftOf="@+id/imageviewright"
+        android:layout_toRightOf="@+id/imageviewleft"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:id="@+id/viewflipperlayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageviewinstruction1"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="@drawable/g11_1" />
+
+            <TextView
+                android:id="@+id/textviewinstruction1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/gray"
+                android:text="@string/how_to_play_match_it_pro1"
+                android:textSize="16sp"
+                android:layout_above="@+id/dividerbelow" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/viewflipperlayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageviewinstruction2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="@drawable/g11_2" />
+
+            <TextView
+                android:id="@+id/textviewinstruction2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray"
+                android:text="@string/how_to_play_match_it_pro2"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/viewflipperlayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageviewinstruction3"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/g1_4" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/instruction_last_tick" />
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/instruction_last_tick" />
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/instruction_last_tick" />
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/instruction_last_tick" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textviewinstruction3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray"
+                android:text="@string/how_to_play_dual_focus4"
+                android:layout_marginTop="50dp"
+                android:gravity="center|bottom"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ViewFlipper>
+
+    <ImageView
+        android:id="@+id/imageviewright"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/right_arrow" />
+
+
+    <ImageView
+        android:id="@+id/imageviewleft"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/left_arrow" />
+
+
+
+
+
+    <View
+        android:id="@+id/dividerbelow"
+        style="@style/Divider"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_above="@+id/instructionbottomlayout"
+        android:layout_marginBottom="20dp" />
+
+
+    <LinearLayout
+        android:id="@+id/instructionbottomlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/crosslayoute"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/circle_btn_state1">
+            <ImageView
+                android:id="@+id/crossimage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cross_icon"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/playlayoute"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/circle_btn_state1">
+
+            <ImageView
+                android:id="@+id/playimage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/start_icon"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

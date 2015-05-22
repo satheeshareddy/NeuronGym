@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nuro</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="title_activity_language_select">Dil seçin</string>
+    <string name="facebook_app_id">1051723228176233</string>
+    <string name="theam_select">Tema seç</string>
+    <string name="home_page">Ana Sayfa</string>
+
+
+
+    <!-- Pause Popup -->
+
+    <string name="pause">durma</string>
+    <string name="resume">Devam</string>
+    <string name="replay">Tekrar</string>
+    <string name="instrections">talimatlar</string>
+    <string name="sound">ses </string>
+    <string name="exit_game">çıkış Oyunu</string>
+
+    <!-- Slider menu -->
+
+    <string name="home">ev</string>
+    <string name="games">Oyunlar</string>
+    <string name="brain_profile">beyin Profili</string>
+    <string name="compare">karşılaştırmak</string>
+    <string name="leadersbord">Liderler Kurulu</string>
+    <string name="friends">Arkadaşlar</string>
+    <string name="setting">ayar</string>
+    <string name="language">dil</string>
+    <string name="logout">Çıkış Yap</string>
+    <string name="exit">çıkış</string>
+
+    <!-- Color Name -->
+
+    <string name="blue">MAVİ</string>
+    <string name="green">YEŞİL</string>
+    <string name="white">BEYAZ</string>
+    <string name="red">KIRMIZI</string>
+    <string name="orange">TURUNCU</string>
+    <string name="violet">VIOLET</string>
+    <string name="brown">KAHVE RENGİ</string>
+    <string name="pink">PEMBE</string>
+
+    <!-- Languages name -->
+    <string name="select_language">Dil Seç</string>
+    <string name="english">English</string>
+    <string name="spanish">Español</string>
+    <string name="hindi">हिंदी</string>
+    <string name="chinese">中文</string>
+    <string name="french">Français</string>
+    <string name="japanese">日本人</string>
+    <string name="russian">русский</string>
+    <string name="korean">한국의</string>
+    <string name="german">Deutsch</string>
+    <string name="turkish">Türk</string>
+    <string name="portuguese">Português</string>
+    <string name="italian">italiano</string>
+    <string name="arabic">العربية</string>
+
+    <!-- Login Screen -->
+    <string name="LoginWithfacebook">Facebook ile Oturum </string>
+    <string name="LoginWithtwitter">Twitter ile Giriş Yap</string>
+    <string name="LoginWithGoogleplus">Google+ ile Giriş Yap</string>
+    <string name="LoginWithLinkedIn">LinkedIn ile Oturum</string>
+    <string name="AlreadyHaveAccount">Zaten hesabınız var mı?</string>
+    <string name="TermsnConditions">Şartlar ve koşullar</string>
+    <string name="PrivacyPolicy">Gizlilik Politikası</string>
+
+    <!-- Sign In Page -->
+    <string name="Signin">Giriş Yap</string>
+
+    <!-- Game over Page -->
+    <string name="accuracy">doğruluk:</string>
+
+    <!-- Select Theme Page -->
+    <string name="Light">ışık</string>
+    <string name="Dark">karanlık</string>
+    <string name="SelectTheme">seç Tema</string>
+    <string name="reminder">Hatırlatmalar</string>
+
+    <!-- Home Page -->
+    <string name="title_activity_home_page">Ana Sayfa</string>
+    <string name="over_view">genel bakış</string>
+    <string name="history">tarih</string>
+    <string name="Statistics">istatistik</string>
+
+    <!-- Activity name -->
+    <string name="title_activity_select_language">Dil Seç</string>
+    <string name="title_activity_sign_in">Faaliyet Oturum</string>
+    <string name="title_activity_brain_profile">beyin Profili</string>
+
+    <!-- Leaders Board page -->
+    <string name="title_activity_leaders_board">lider Kurulu</string>
+    <string name="catogery_short">kategori</string>
+    <string name="location">konum </string>
+    <string name="over_all">tüm</string>
+    <string name="skill_wise">bilge Beceri</string>
+    <string name="game_wise">oyun bilge</string>
+    <string name="global">global</string>
+    <string name="country">ülke</string>
+    <string name="your_rank">Kişisel Rankings</string>
+    <string name="your_rank_result">sizin Rank</string>
+    <string name="rank">rütbe</string>
+    <string name="nationality">milliyet</string>
+    <string name="user_name">Kullanıcı adı</string>
+    <string name="ani">ANI</string>
+
+    <!-- Comparision page -->
+    <string name="title_activity_comparision">karşılaştırma</string>
+    <string name="gender_short">cinsiyet</string>
+    <string name="location_short">konum</string>
+
+    <!-- Shorting for Age selection -->
+    <string name="age_short">yaş</string>
+    <string name="age_all">tüm</string>
+    <string name="age_kid">çocuk</string>
+    <string name="age_youth">gençlik</string>
+    <string name="age_adult">yetişkin</string>
+    <string name="age_mid_age">Orta Yaş</string>
+    <string name="age_elder">büyük</string>
+    <string name="female">kadın</string>
+    <string name="male">erkek</string>
+
+    <!-- Six Gaming section name -->
+    <string name="attention">Dikkat</string>
+    <string name="memory">bellek</string>
+    <string name="visual">görsel Algı</string>
+    <string name="flexibility">esneklik</string>
+    <string name="problem_solving">problem Çözme</string>
+    <string name="speed">işleme Hız</string>
+    <string name="your_standings">sizin Puan</string>
+
+    <!-- Brain Profile Activity -->
+    <string name="thirty_days">30 Gün</string>
+    <string name="seven_days">7 Gün</string>
+    <string name="today">Bugün Mü</string>
+    <string name="cognitive_change">bilişsel Değişim</string>
+    <string name="overall1">OverAll</string>
+
+    <!-- Over View Page -->
+    <string name="average_neuron_index">Ortalama Nöron Endeksi (ANI)</string>
+    <string name="brain_workout_distribution">Beyin Egzersiz Dağıtım</string>
+    <string name="title_activity_game_menu">oyun Menüsü</string>
+
+    <!-- 20 Game Name -->
+    <string name="title_activity_game_name">Oyunlar</string>
+    <string name="dual_focus">Çift Odak</string>
+    <string name="dual_focus_pro">Çift Odak Pro</string>
+    <string name="blink">kırpmak</string>
+    <string name="blink_pro">Pro Blink</string>
+    <string name="track_route">Güzergah Takip</string>
+    <string name="memory_matrix">bellek Matrix</string>
+    <string name="memory_matrix_pro">Bellek Matrix Pro</string>
+    <string name="dancing_balls">Dans Toplar</string>
+    <string name="shapes">Şekiller</string>
+    <string name="match_it">It Maç</string>
+    <string name="match_it_pro">It Pro Maç</string>
+    <string name="reversal">iptal</string>
+    <string name="reversal_pro">Ters Pro</string>
+    <string name="money_game">Para Oyunu</string>
+    <string name="solve_it">It çözün</string>
+    <string name="after_math">akıbet</string>
+    <string name="speed_shop">hız Shop</string>
+    <string name="spot_it">It nokta</string>
+    <string name="spot_it_pro">It Pro Nokta</string>
+    <string name="brain_flash">beyin Flaş</string>
+    <string name="title_activity_dual_focus_instruction">Çift Odak Eğitim</string>
+
+    <!-- Dual Focus Instruction Page -->
+    <string name="cognative_skill_trained">Bilişsel Beceri Eğitimli:</string>
+    <string name="divided_attention">bölünmüş Dikkat</string>
+    <string name="dual_focus_instruction">Çift Odak böylece multitasking yeteneğini arttırmak, aynı anda birden çok şeylere dikkat oynamak için yardımcı olur.</string>
+    <string name="your_highest_score">Sizin En Yüksek Puan</string>
+    <string name="score">12500</string>
+    <string name="multiplier_reach">Çarpan Ulaşıldı</string>
+    <string name="multiplier_completed">2</string>
+    <string name="how_to_play">Nasıl Oynanır?</string>
+    <string name="start_game">başlangıç</string>
+    <string name="title_activity_dual_focus_pro_instruction">Çift FocusPro Öğretim</string>
+
+    <!-- Dual Focus Pro Instruction Page -->
+    <string name="dual_focus_pro_instruction">Çift Odak Pro böylece çoklu görev yeteneği artırılması, aynı anda birden çok şeylere dikkat oynamak için yardımcı olur.</string>
+    <string name="title_activity_blink_instruction">Blink Öğretim</string>
+
+    <!-- Blink Instruction Page -->
+    <string name="blink_instruction">Küçük dairelerden birinde bir resim ile birlikte merkez daire bir rakam yanıp söner.</string>
+    <string name="title_activity_blink_pro_instruction">Pro Öğretim Blink</string>
+    <string name="title_activity_track_the_route">Güzergah Takip</string>
+    <string name="title_activity_memory_matrix">bellek Matrix</string>
+    <string name="title_activity_memory_matrix_pro_instruction">Bellek Matrix Pro Öğretim</string>
+    <string name="title_activity_dancing_ball_instruction">Top Yönerge Dancing</string>
+    <string name="title_activity_shapes_instruction">Şekiller Öğretim</string>
+    <string name="title_activity_match_it_instruction">maç Öğretim</string>
+    <string name="title_activity_match_it_pro_instruction">Maç Pro Öğretim</string>
+    <string name="title_activity_reversal_instruction">Ters Öğretim</string>
+    <string name="title_activity_reversal_pro_instruction">Ters Pro Öğretim</string>
+    <string name="title_activity_money_game_instruction">Para Oyunu Öğretim</string>
+    <string name="title_activity_solve_it_instruction">SolveIt Öğretim</string>
+    <string name="title_activity_after_math_instruction">İzlenimler Öğretim</string>
+    <string name="title_activity_speed_shop_instruction">Hız Shop Öğretim</string>
+    <string name="title_activity_spot_it_instruction">Nokta O Talimatları</string>
+    <string name="title_activity_spot_it_pro_instruction">Nokta It Pro Öğretim</string>
+    <string name="title_activity_brain_flash_instruction">Beyin Flaş Öğretim</string>
+
+    <!-- Track The Route Instruction Page -->
+    <string name="track_route_instruction">Rota senin seyir belleğe yanı sıra çalışma artırır izleyin. Bu beyin yollar ve farklı yollar hatırlamanıza yardımcı olur.</string>
+
+    <!-- Memory Matrix Instruction Page -->
+    <string name="memory_matrix_instruction">Bellek Matrix mekansal bellek ve bir nesne konumunu hatırlamak için yeteneğini geliştirir.</string>
+
+    <!-- Memory Matrix Pro Instruction Page -->
+    <string name="memory_matrix_pro_instruction">Bellek Matrix Pro mekansal bellek ve bir nesne konumunu hatırlamak için yeteneğini geliştirir.</string>
+
+    <!-- Dancing Balls  Instruction Page -->
+    <string name="dancing_balls_instruction">Toplar Dancing görsel kolay ve verimli bir şekilde, örneğin bilgileri işlemek için yardımcı olur Bir araba sürerken.</string>
+
+    <!-- Shapes Instruction Page -->
+    <string name="shapes_instruction">Şekiller gerekli verileri alarak gereksiz verileri görmezden beyin yeteneğine sahip yapımında ve aynı zamanda size yardımcı olur.</string>
+
+    <!-- Match It Instruction Page -->
+    <string name="match_it_instruction">Özellikle temas zihinsel esnekliği artırır Maç ve karar verme durumları gitmek</string>
+
+    <!-- Match It Pro Instruction Page -->
+    <string name="match_it_pro_instruction">O Pro özellikle temas zihinsel esnekliği artırır Maç ve karar verme durumları gitmek</string>
+
+    <!-- Reversal Instruction Page -->
+    <string name="reversal_instruction">Ters hızla ilgi odağı kayması yeteneğini artırarak bilişsel kontrolü iyileştirmede yardımcı olur</string>
+
+    <!-- Reversal Pro Instruction Page -->
+    <string name="reversal_pro_instruction">Ters Pro hızla ilgi odağı kayması yeteneğini artırarak bilişsel kontrolü iyileştirmede yardımcı olur</string>
+
+    <!-- Money Game Instruction Page -->
+    <string name="money_game_instruction">Para Oyunu nicel muhakeme yeteneklerini uyararak sizin problem çözme becerilerini geliştirir.</string>
+
+    <!-- Solve It Instruction Page -->
+    <string name="solve_it_instruction">Bu verimli ve hızlı bir şekilde denklemler hesaplamak için yardımcı olur çözün.</string>
+
+    <!-- After Math Instruction Page -->
+    <string name="after_math_instruction">Sonrası verimli nicel verilere göre karar size yardımcı olur.</string>
+
+    <!-- Speed Shop Instruction Page -->
+    <string name="speed_shop_instruction">Hız Dükkanı, böylece yapım genel verimliliğini artırarak küçük karar sizin işlem hızını artırır.</string>
+
+    <!-- Spot It Instruction Page -->
+    <string name="spot_it_instruction">Nokta sizin beynin bilgi işleme hızını hızlandırır.</string>
+
+    <!-- Spot It Pro Instruction Page -->
+    <string name="spot_it_pro_instruction">O Pro beynin bilgi işleme hızını hızlandırır Nokta.</string>
+    <!-- Brain Flash Instruction Page -->
+    <string name="brain_flash_instruction">Beyin Flash beynin işlem hızını artırarak üzerinden refleks eylem geliştirmek için yardımcı olur.</string>
+
+    <!-- Dual Focus How To Play Page -->
+    <string name="how_to_play_dual_focus1">Küçük dairelerden birinde bir resim ile birlikte merkez daire bir rakam yanıp söner.</string>
+    <string name="how_to_play_dual_focus2">Ortaya rakamı dokunun.</string>
+    <string name="how_to_play_dual_focus3">Ortaya resme dokunun.</string>
+    <string name="how_to_play_dual_focus4">abhinav</string>
+
+    <!-- Dual Focus Pro How To Play Page -->
+    <string name="how_to_play_dual_focus_pro"> Görüntü görünür küçük bir daire dokunun.</string>
+
+    <!-- Blink How To Play Page -->
+    <string name="how_to_play_blink1">Gri alfabe bir dere bir rakam ve yeşil renkli alfabe ile birlikte yanıp söner.</string>
+    <string name="how_to_play_blink2">Verilen seçenekler arasından bu rakam ve yeşil renkli alfabesi dokunun.</string>
+
+    <!-- Blink Pro How To Play Page -->
+    <string name="how_to_play_blink_pro1"> Gri alfabe akımı bir rakam, yeşil alfabenin ve mavi alfabesiyle yanıp söner.</string>
+    <string name="how_to_play_blink_pro2">Rakam yanı sıra ilgili seçenekler arasından yeşil ve mavi alfabesine üzerine dokunun.</string>
+
+    <!-- Track The Route How To Play Page -->
+    <string name="how_to_play_track_the_route1">Uçak belirli bir desen oluşturmak için noktalar bağlanır.</string>
+    <string name="how_to_play_track_the_route2">Desen ezberleyin ve aynı sırayla noktalar üzerinde dokunarak onu yeniden.</string>
+    <!-- Memory Matrix How To Play Page -->
+    <string name="how_to_play_memory_matrix1">Kırmızı yanıyor daireler ezberleyin.</string>
+    <string name="how_to_play_memory_matrix2">Onlar kaybolur sonra aynı çevreler dokunun.</string>
+
+    <!-- Memory Matrix Pro Pro How To Play Page -->
+    <string name="how_to_play_memory_matrix_pro1">Mavi veya kırmızı yanıyor daireler ezberleyin.</string>
+    <string name="how_to_play_memory_matrix_pro2"> Gösterge üzerinde kırmızı görünüyorsa sadece kırmızı daireler dokunun.</string>
+    <string name="how_to_play_memory_matrix_pro3">Gösterge üzerinde mavi görünüyorsa sadece mavi daireler dokunun.</string>
+
+    <!-- Dancing Ball How To Play Page -->
+    <string name="how_to_play_dancing_ball1">Hareketli top Yolu bir şeklin anahat oluşturur.</string>
+    <string name="how_to_play_dancing_ball2">Doğru seçeneği dokunun.</string>
+
+    <!-- Shapes How To Play Page -->
+    <string name="how_to_play_shapes1">Iki özdeş şekilleri üzerine dokunun.</string>
+
+    <!-- Match It How To Play Page -->
+    <string name="how_to_play_match_it1"> Metnin anlamı metnin rengi, dokunun doğru butonu ile aynı ise</string>
+    <string name="how_to_play_match_it2">Ve aynı musluk yanlış butonu değilse.</string>
+
+    <!-- Match It Pro How To Play Page -->
+    <string name="how_to_play_match_it_pro1"> Anlam kutusundaki metnin anlamı renk kutusu musluk doğru düğmesini metnin rengi aynı ise.</string>
+    <string name="how_to_play_match_it_pro2"> Ve aynı musluk yanlış butonu değilse.</string>
+
+    <!-- Reversal How To Play Page -->
+    <string name="how_to_play_reversal1"> Top yeşil olduğunda sizin tokatlamak yönünde hareket edecektir.</string>
+    <string name="how_to_play_reversal2">Top kırmızı olduğunda sizin tokatlamak ters yönde hareket edecektir.</string>
+    <string name="how_to_play_reversal3"> Hedefiniz parlayan sepet topu koymak.</string>
+
+    <!-- Reversal Pro How To Play Page -->
+    <string name="how_to_play_reversal_pro1">Hedefiniz topu dış halkanın aynı renk sepet topu koymak.</string>
+
+    <!-- Money Game How To Play Page -->
+    <string name="how_to_play_money_game1"> Dokunun > sol kutuda sikke toplamı fazla ise.</string>
+    <string name="how_to_play_money_game2"> Dokunun > doğru kutuda sikke toplamı fazla ise. </string>
+    <string name="how_to_play_money_game3"> Dokunun = Her iki kutulara sikke toplamı aynı ise.</string>
+
+    <!-- Solve It How To Play Page -->
+    <string name="how_to_play_solve_it1"> Denklemi hesaplayın ve tuş takımını kullanarak cevap.</string>
+    <string name="how_to_play_solve_it2">C düğmesine basın girişi iptal etmek </string>
+    <string name="how_to_play_solve_it3"> Basın oynat düğmesi bu denklemi atlamak için.</string>
+
+    <!-- After Math How To Play Page -->
+    <string name="how_to_play_after_math1"> Verilen denklem doğru ya da yanlış olup olmadığını kontrol edin.</string>
+    <string name="how_to_play_after_math2"> Buna göre doğru ya da yanlış düğmesine dokunun. </string>
+
+    <!-- Speed Shop How To Play Page -->
+    <string name="how_to_play_speed_shop1">Ait olduğu kategori yönelik merkezi nesne kaydırın.</string>
+
+    <!-- Spot It How To Play Page -->
+    <string name="how_to_play_spot_it1">Dürbün geçen nesne nokta.</string>
+    <string name="how_to_play_spot_it2">  Verilen seçenekler arasından aynı nesneyi dokunun.</string>
+
+    <!-- Spot It Pro How To Play Page -->
+    <string name="how_to_play_spot_it_pro1"> Dürbün ile aynı anda geçen iki nesne nokta.</string>
+    <string name="how_to_play_spot_it_pro2">Verilen seçenekler arasından aynı iki nesne dokunun.</string>
+
+    <!-- Brain Flash How To Play Page -->
+    <string name="how_to_play_brain_flash1">Dönen gri çevrelerin yoğunlaşın.</string>
+    <string name="how_to_play_brain_flash2">Mümkün olduğunca hızlı bir şekilde yeşil dönüşür daire dokunun.</string>
+    <string name="how_to_play_brain_flash3"> Kırmızı dönerse vurmayın.</string>
+
+    <string name="title_activity_how_to_play_after_match">Aftermath Nasıl Oynanır</string>
+    <string name="title_activity_how_to_play_match_it">Maç It Nasıl Oynanır</string>
+    <string name="title_activity_how_to_play_match_it_pro">Maç Pro Nasıl Oynanır</string>
+    <string name="title_activity_how_to_play_memorymatrix">Bellek matrisi Nasıl Oynanır</string>
+    <string name="title_activity_how_to_play_memorymatrix_pro">Nasıl Oynanır Hafıza matris Pro</string>
+    <string name="title_activity_how_to_play_money">Para Nasıl Oynanır</string>
+    <string name="title_activity_how_to_play_reversal">Dönüşümü Nasıl Oynanır</string>
+    <string name="title_activity_how_to_play_reversal_pro">Ters Pro Nasıl Oynanır</string>
+    <string name="title_activity_how_to_play_shapes">Şekiller Nasıl Oynanır</string>
+    <string name="title_activity_how_to_play_solve_it">It çözün Nasıl Oynanır</string>
+    <string name="title_activity_how_to_play_speed_shop">Hız Dükkanı Nasıl Oynanır</string>
+    <string name="title_activity_how_to_play_spot_it">Nokta It Nasıl Oynanır</string>
+    <string name="title_activity_how_to_play_spot_it_pro">Nokta It Pro Nasıl Oynanır</string>
+    <string name="title_activity_how_to_play_track_the_route">Parça Rota Nasıl Oynanır</string>
+    <string name="title_activity_game_over">oyun Bitti</string>
+    <string name="title_activity_form">form</string>
+
+
+</resources>

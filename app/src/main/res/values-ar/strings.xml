@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">العصبية</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="title_activity_language_select">اختر اللغة</string>
+    <string name="theam_select">اختر الشكل</string>
+    <string name="home_page">الصفحة الرئيسية</string>
+
+    <!-- Slider menu -->
+    <string name="home">الرئيسية </string>
+    <string name="games">الألعاب</string>
+    <string name="brain_profile">الملف الشخصي للدماغ</string>
+    <string name="compare">مقارنة</string>
+    <string name="leadersbord">مجلس القادة</string>
+    <string name="friends">الأصدقاء</string>
+    <string name="setting">الإعدادات</string>
+    <string name="language">اللغة</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="exit">الخروج</string>
+
+    <!-- Color Name -->
+    <string name="blue">ازرق فاتح</string>
+    <string name="green">أخضر</string>
+    <string name="white">أبيض</string>
+    <string name="red">أحمر</string>
+    <string name="orange">البرتقالي</string>
+    <string name="violet">اللون البنفسجي</string>
+    <string name="brown">اللون البني</string>
+    <string name="pink">وردي فاتح</string>
+
+    <!-- Languages name -->
+    <string name="english">English</string>
+    <string name="spanish">Español</string>
+    <string name="hindi">हिंदी</string>
+    <string name="chinese">中文</string>
+    <string name="french">Français</string>
+    <string name="japanese">日本人</string>
+    <string name="russian">русский</string>
+    <string name="korean">한국의</string>
+    <string name="german">Deutsch</string>
+    <string name="turkish">Türk</string>
+    <string name="portuguese">Português</string>
+    <string name="italian">italiano</string>
+    <string name="arabic">العربية</string>
+
+
+    <!-- Login Screen -->
+    <string name="LoginWithfacebook">قم بتسجيل الدخول في الفيسبوك</string>
+    <string name="LoginWithtwitter">قم بتسجيل الدخول في تويتر</string>
+    <string name="LoginWithGoogleplus">قم بتسجيل الدخول في جوجل</string>
+    <string name="LoginWithLinkedIn">قم بتسجيل الدخول في ينكدين</string>
+    <string name="AlreadyHaveAccount">لديك حساب مسبقا؟</string>
+    <string name="TermsnConditions">الأحكام والشروط</string>
+    <string name="PrivacyPolicy">سياسة الخصوصية</string>
+
+    <!-- Sign In Page -->
+    <string name="Signin">تسجيل الدخول</string>
+
+
+    <!-- Game over Page -->
+    <string name="accuracy">دقة:</string>
+
+    <!-- Select Theme Page -->
+    <string name="title_activity_theme_select">موضوع اختر</string>
+    <string name="Light">مضيء</string>
+    <string name="Dark">مظلم</string>
+    <string name="SelectTheme">اختر الشكل</string>
+    <string name="reminder">مذكر</string>
+
+
+    <!-- Home Page -->
+    <string name="title_activity_home_page">الصفحة الرئيسية</string>
+    <string name="over_view">نظرة عامة</string>
+    <string name="history">التاريخ</string>
+    <string name="Statistics">إحصائيات</string>
+
+    <!-- Activity name -->
+    <string name="title_activity_select_language">اختر اللغة</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_brain_profile">الملف الشخصي للدماغ</string>
+
+    <!-- Leaders Board page -->
+    <string name="title_activity_leaders_board">مجلس القادة</string>
+    <string name="catogery_short">الفئة</string>
+    <string name="location">موقع </string>
+    <string name="over_all">الشامل</string>
+    <string name="skill_wise">مهارة الحكمة</string>
+    <string name="game_wise">لعبة الحكمة</string>
+    <string name="global">عالمي</string>
+    <string name="country">بلد</string>
+    <string name="your_rank">Your Rankings</string>
+    <string name="your_rank_result">التقييم الخاص بك</string>
+    <string name="rank">الترتيب</string>
+    <string name="nationality">الجنسية</string>
+    <string name="user_name">يوزر نيم</string>
+    <string name="ani">ANI</string>
+
+    <!-- Comparision page -->
+    <string name="title_activity_comparision">وجه المقارنة</string>
+    <string name="gender_short">الجنس</string>
+    <string name="location_short">موقع</string>
+
+    <!-- Shorting for Age selection -->
+    <string name="age_short">عمر</string>
+    <string name="age_all">الجميع</string>
+    <string name="age_kid">طفل</string>
+    <string name="age_youth">شباب</string>
+    <string name="age_adult">بالغ</string>
+    <string name="age_mid_age">منتصف العمر </string>
+    <string name="age_elder">مسن</string>
+    <string name="female">أنثى</string>
+    <string name="male">ذكر</string>
+
+    <!-- Six Gaming section name -->
+    <string name="attention">الاهتمام</string>
+    <string name="memory">الذاكرة</string>
+    <string name="visual">الإدراك البصري</string>
+    <string name="flexibility">المرونة العقلية</string>
+    <string name="problem_solving">حل المشكل</string>
+    <string name="speed">سرعة المعالجة</string>
+    <string name="your_standings">الترتيب الخاص بك</string>
+
+    <!-- Brain Profile Activity -->
+    <string name="thirty_days">30 يوما</string>
+    <string name="seven_days">7 أيام</string>
+    <string name="today">اليوم</string>
+    <string name="cognitive_change">التغيير المعرفي</string>
+    <string name="overall1">الشامل</string>
+
+    <!-- Over View Page -->
+    <string name="average_neuron_index">متوسط المؤشر العصبي</string>
+    <string name="brain_workout_distribution">التوزيع التجريبي للدماغ</string>
+    <string name="title_activity_game_menu">قائمة اللعبة</string>
+
+    <!-- 20 Game Name -->
+    <string name="title_activity_game_name">الألعاب</string>
+    <string name="dual_focus">التركيز المزدوج</string>
+    <string name="dual_focus_pro">المزدوج التركيز برو</string>
+    <string name="blink">غمز</string>
+    <string name="blink_pro">طرفة برو</string>
+    <string name="track_route">تتبع مسار</string>
+    <string name="memory_matrix">مصفوفة الذاكرة</string>
+    <string name="memory_matrix_pro">ذاكرة مصفوفة برو</string>
+    <string name="dancing_balls">كرات الرقص</string>
+    <string name="shapes">الأشكال</string>
+    <string name="match_it">تطابق و</string>
+    <string name="match_it_pro">تطابق وبرو</string>
+    <string name="reversal">انعكاس</string>
+    <string name="reversal_pro">عكس برو</string>
+    <string name="money_game">لعبة المال</string>
+    <string name="solve_it">حلها</string>
+    <string name="after_math">بعد الرياضيات</string>
+    <string name="speed_shop">سرعة شوب</string>
+    <string name="spot_it">بقعة و</string>
+    <string name="spot_it_pro">بقعة وبرو</string>
+    <string name="brain_flash">فلاش الدماغ</string>
+    <string name="title_activity_dual_focus_instruction">المزدوج التركيز التعليمات</string>
+
+    <!-- Dual Focus Instruction Page -->
+    <string name="cognative_skill_trained">المهارات المعرفية تدريب: </string>
+    <string name="divided_attention">تنقسم الاهتمام</string>
+    <string name="dual_focus_instruction">المزدوج التركيز يساعدك للعب الانتباه إلى الأمور متعددة في الوقت نفسه مما يعزز قدرة تعدد المهام الخاصة بك.</string>
+    <string name="your_highest_score">أعلى درجاتك</string>
+    <string name="score">12500</string>
+    <string name="multiplier_reach">مضاعف صلت الى</string>
+    <string name="multiplier_completed">2</string>
+    <string name="how_to_play">كيف ألعب؟</string>
+    <string name="start_game">بداية</string>
+    <string name="title_activity_dual_focus_pro_instruction">المزدوج التركيز برو التعليمات</string>
+
+    <!-- Dual Focus Pro Instruction Page -->
+    <string name="dual_focus_pro_instruction">المزدوج التركيز برو يساعدك للعب الانتباه إلى الأمور متعددة في الوقت نفسه مما يعزز قدرة تعدد المهام الخاصة بك.</string>
+    <string name="title_activity_blink_instruction">تعليمات ميض</string>
+
+    <!-- Blink Instruction Page -->
+    <string name="blink_instruction">ويومض الرقم في دائرة المركزية جنبا إلى جنب مع صورة في أي من الدوائر الصغيرة.</string>
+    <string name="title_activity_blink_pro_instruction">طرفة برو التعليمات</string>
+    <string name="title_activity_track_the_route">تتبع مسار</string>
+    <string name="title_activity_memory_matrix">مصفوفة الذاكرة</string>
+    <string name="title_activity_memory_matrix_pro_instruction">ذاكرة مصفوفة برو التعليمات</string>
+    <string name="title_activity_dancing_ball_instruction">الرقص الكرة التدريس</string>
+    <string name="title_activity_shapes_instruction">الأشكال التعليمات</string>
+    <string name="title_activity_match_it_instruction">مباراة والتعليمات</string>
+    <string name="title_activity_match_it_pro_instruction">مباراة وبرو التعليمات</string>
+    <string name="title_activity_reversal_instruction">عكس التعليمات</string>
+    <string name="title_activity_reversal_pro_instruction">عكس برو التعليمات</string>
+    <string name="title_activity_money_game_instruction">لعبة المال التعليمات</string>
+    <string name="title_activity_solve_it_instruction">حل والتعليمات</string>
+    <string name="title_activity_after_math_instruction">بعد الرياضيات التعليمات</string>
+    <string name="title_activity_speed_shop_instruction">سرعة محل التعليمات</string>
+    <string name="title_activity_spot_it_instruction">بقعة والتعليمات</string>
+    <string name="title_activity_spot_it_pro_instruction">بقعة وبرو التعليمات</string>
+    <string name="title_activity_brain_flash_instruction">الدماغ فلاش التعليمات</string>
+
+    <!-- Track The Route Instruction Page -->
+    <string name="track_route_instruction">تتبع مسار يعزز العمل الخاصة بك وكذلك الذاكرة الملاحية. كما أنه يساعد الدماغ يتذكر مسارات وطرق مختلفة.</string>
+
+    <!-- Memory Matrix Instruction Page -->
+    <string name="memory_matrix_instruction">ذاكرة مصفوفة يعزز الذاكرة المكانية وقدرتك على تذكر مكان الكائنات.</string>
+
+    <!-- Memory Matrix Pro Instruction Page -->
+    <string name="memory_matrix_pro_instruction">مصفوفة ذاكرة برو يعزز الذاكرة المكانية وقدرتك على تذكر مكان الكائنات.</string>
+
+    <!-- Dancing Balls  Instruction Page -->
+    <string name="dancing_balls_instruction">الرقص كرات يساعدك على معالجة المعلومات بصريا بسهولة وكفاءة، على سبيل المثال بينما كان يقود السيارة.</string>
+
+    <!-- Shapes Instruction Page -->
+    <string name="shapes_instruction">الأشكال يساعدك في جعل الدماغ قادرة على تجاهل بيانات زائدة عن الحاجة، وفي الوقت نفسه تناول البيانات المطلوبة.</string>
+
+    <!-- Match It Instruction Page -->
+    <string name="match_it_instruction">تطابق أنه يعزز المرونة العقلية الخاصة بك وخاصة على اتصال وتذهب الحالات صنع القرار</string>
+
+    <!-- Match It Pro Instruction Page -->
+    <string name="match_it_pro_instruction">تطابق ذلك برو يعزز المرونة العقلية الخاصة بك وخاصة على اتصال وتذهب الحالات صنع القرار</string>
+
+    <!-- Reversal Instruction Page -->
+    <string name="reversal_instruction">عكس يساعدك في تحسين السيطرة المعرفية عن طريق تعزيز قدرتك على تحويل تركيز الاهتمام بسرعة</string>
+
+    <!-- Reversal Pro Instruction Page -->
+    <string name="reversal_pro_instruction">عكس برو يساعدك في تحسين السيطرة المعرفية عن طريق تعزيز قدرتك على تحويل تركيز الاهتمام بسرعة</string>
+
+    <!-- Money Game Instruction Page -->
+    <string name="money_game_instruction">المال لعبة يعزز الخاص بك مهارات حل المشاكل من خلال تحفيز قدرات التفكير بك الكمية.</string>
+
+    <!-- Solve It Instruction Page -->
+    <string name="solve_it_instruction">حل فهو يساعد على حساب المعادلات بكفاءة وسرعة.</string>
+
+    <!-- After Math Instruction Page -->
+    <string name="after_math_instruction">بعد يساعدك في اتخاذ القرارات فيما يتعلق بالبيانات الكمية بكفاءة.</string>
+
+    <!-- Speed Shop Instruction Page -->
+    <string name="speed_shop_instruction">سرعة متجر يزيد من سرعة معالجة الخاص بك في صغير مما يجعل بالتالي زيادة الكفاءة العامة الخاصة بك القرار.</string>
+
+    <!-- Spot It Instruction Page -->
+    <string name="spot_it_instruction">بقعة انها تسمر تجهيز سرعة المعلومات من الدماغ.</string>
+
+    <!-- Spot It Pro Instruction Page -->
+    <string name="spot_it_pro_instruction">بقعة وبرو تسمر تجهيز سرعة المعلومات من الدماغ.</string>
+
+    <!-- Brain Flash Instruction Page -->
+    <string name="brain_flash_instruction">الدماغ فلاش يساعدك على تعزيز العمل المنعكس عن طريق زيادة سرعة المعالجة من الدماغ.</string>
+    <string name="title_activity_dual_focus_game">لعبة مزدوجة التركيز</string>
+    <string name="title_activity_how_to_play_dual_focuse">كيفية اللعب المزدوج التركيز</string>
+    <string name="title_activity_dual_focus_pro_game">مزدوجة التركيز برو لعبة</string>
+    <string name="title_activity_blink_game">لعبة وميض</string>
+    <string name="title_activity_blink_pro_game">طرفة برو لعبة</string>
+    <string name="title_activity_memory_matrixgame">الذاكرة لعبة ماتريكس</string>
+    <string name="title_activity_memory_matrix_pro_game">ذاكرة مصفوفة برو لعبة</string>
+    <string name="title_activity_shapes_game">الأشكال لعبة</string>
+    <string name="title_activity_match_it_game">مباراة واللعبة</string>
+    <string name="title_activity_match_it_pro_game">مباراة وبرو لعبة</string>
+    <string name="title_activity_reversal_game">عكس لعبة</string>
+    <string name="title_activity_reversal_pro_game">عكس برو لعبة</string>
+    <string name="title_activity_money_game">لعبة المال</string>
+    <string name="title_activity_after_match_game">بعد المباراة لعبة</string>
+    <string name="title_activity_brain_flash_game">الدماغ لعبة فلاش</string>
+    <string name="title_activity_spot_it_game">بقعة واللعبة</string>
+    <string name="title_activity_spot_it_pro_game">بقعة وبرو لعبة</string>
+    <string name="title_activity_solve_it_game">حل واللعبة</string>
+    <string name="title_activity_dancing_ball_game">الرقص لعبة الكرة</string>
+    <string name="title_activity_track_the_route_game">تتبع لعبة الطريق</string>
+    <string name="title_activity_speed_shop_game">سرعة متجر لعبة</string>
+    <string name="title_activity_how_to_play_dual_focuspro">كيفية اللعب المزدوج التركيز الموالية</string>
+    <string name="title_activity_how_to_play_blink">كيفية اللعب الطرفة</string>
+    <string name="title_activity_how_to_play_blink_pro">كيفية اللعب الطرفة برو</string>
+    <string name="title_activity_how_to_play_brain_flash">كيفية اللعب الدماغ فلاش</string>
+    <string name="title_activity_how_to_play_dancing_ball">كيفية اللعب الرقص الكرة</string>
+
+
+
+
+    <!-- Dual Focus How To Play Page -->
+    <string name="how_to_play_dual_focus1">ويومض الرقم في دائرة المركزية جنبا إلى جنب مع صورة في أي من الدوائر الصغيرة.</string>
+    <string name="how_to_play_dual_focus2">اضغط على الرقم الذي ظهر.</string>
+    <string name="how_to_play_dual_focus3">اضغط على الصورة التي ظهرت.</string>
+    <string name="how_to_play_dual_focus4">abhinav</string>
+
+    <!-- Dual Focus Pro How To Play Page -->
+    <string name="how_to_play_dual_focus_pro"> اضغط على الدائرة الصغيرة حيث ظهرت الصورة.</string>
+
+    <!-- Blink How To Play Page -->
+    <string name="how_to_play_blink1">وهناك تيار من الحروف الهجائية الرمادية يومض جنبا إلى جنب مع أرقام والحروف الأبجدية الملونة الخضراء.</string>
+    <string name="how_to_play_blink2">الاستفادة من تلك الأرقام والحروف الأبجدية الملونة الخضراء من خيارات معينة.</string>
+
+    <!-- Blink Pro How To Play Page -->
+    <string name="how_to_play_blink_pro1"> وهناك تيار من الحروف الهجائية الرمادية يومض مع أرقام، أبجدية الخضراء والزرقاء الأبجدية.</string>
+    <string name="how_to_play_blink_pro2">اضغط على الرقم وكذلك الأبجدية الخضراء والزرقاء من الخيارات منها.</string>
+
+    <!-- Track The Route How To Play Page -->
+    <string name="how_to_play_track_the_route1">الطائرة يربط بين النقاط لتشكيل نمط معين.</string>
+    <string name="how_to_play_track_the_route2">حفظ نمط وإعادة إنشائها من قبل النقر على النقاط في نفس الترتيب.</string>
+
+    <!-- Memory Matrix How To Play Page -->
+    <string name="how_to_play_memory_matrix1">حفظ الدوائر التي يضيء باللون الأحمر.</string>
+    <string name="how_to_play_memory_matrix2">اضغط على نفس الدوائر بعد أن تختفي.</string>
+
+    <!-- Memory Matrix Pro Pro How To Play Page -->
+    <string name="how_to_play_memory_matrix_pro1">حفظ الدوائر التي يضيء باللون الأزرق أو الأحمر.</string>
+    <string name="how_to_play_memory_matrix_pro2"> اضغط فقط على الدوائر الحمراء إذا مؤشر أعلاه يظهر أحمر.</string>
+    <string name="how_to_play_memory_matrix_pro3">اضغط فقط على الدوائر الزرقاء إذا مؤشر أعلاه يظهر الأزرق.</string>
+
+
+
+
+
+    <!-- Dancing Ball How To Play Page -->
+    <string name="how_to_play_dancing_ball1">مسار الكرة تتحرك يخلق الخطوط العريضة للشكل.</string>
+    <string name="how_to_play_dancing_ball2">اضغط على الخيار الصحيح.</string>
+
+    <!-- Shapes How To Play Page -->
+    <string name="how_to_play_shapes1">اضغط على شكلين متطابقة.</string>
+
+     <!--Match It How To Play Page-->
+    <string name="how_to_play_match_it1"> إذا معنى النص هو نفس لون النص، انقر فوق الزر الصحيح. </string>
+    <string name="how_to_play_match_it2">وإذا لم يكن الصنبور زر "خاطئة" نفسه.</string>
+
+     <!--Match It Pro How To Play Page-->
+     <string name="how_to_play_match_it_pro1"> إذا معنى النص في مربع المعنى هو نفس لون النص في مربع اللون الصنبور زر الصحيح. </string>
+    <string name="how_to_play_match_it_pro2">وإذا لم يكن الصنبور زر "خاطئة" نفسه.</string>
+
+     <!--Reversal How To Play Page-->
+    <string name="how_to_play_reversal1"> عندما تكون الكرة الخضراء أنها سوف تتحرك في اتجاه انتقاد الخاص بك.</string>
+    <string name="how_to_play_reversal2">عندما تكون الكرة الحمراء سوف تتحرك في الاتجاه المعاكس لانتقاد الخاص بك.</string>
+    <string name="how_to_play_reversal3"> هدفكم هو وضع الكرة في سلة متوهجة.</string>
+
+     <!--Reversal Pro How To Play Page-->
+    <string name="how_to_play_reversal_pro1">هدفكم هو وضع الكرة في سلة من نفس لون من الطوق الخارجي على الكرة.</string>
+
+    <!-- Money Game How To Play Page -->
+    <string name="how_to_play_money_game1"> الصنبور> إذا كان مجموع القطع النقدية في المربع الأيسر هو أكثر. </string>
+    <string name="how_to_play_money_game2"> الصنبور = إذا كان مجموع القطع النقدية في كل من صناديق هي نفسها. </string>
+    <string name="how_to_play_money_game3"> الصنبور> إذا كان مجموع القطع النقدية في المربع الصحيح هو أكثر من ذلك. </string>
+
+
+
+
+
+
+
+
+
+    <!-- Solve It How To Play Page -->
+    <string name="how_to_play_solve_it1"> حساب المعادلة والإجابة باستخدام لوحة المفاتيح.</string>
+    <string name="how_to_play_solve_it2">الصحافة C لإلغاء المدخلات الخاصة بك</string>
+    <string name="how_to_play_solve_it3"> اضغط على زر التشغيل لتخطي هذه المعادلة.</string>
+
+    <!-- After Math How To Play Page -->
+    <string name="how_to_play_after_math1">تحقق ما إذا كانت معادلة معينة هي صحيحة أو خاطئة.</string>
+    <string name="how_to_play_after_math2"> اضغط زر "الصحيح" أو "خطأ" وفقا لذلك. </string>
+
+    <!-- Speed Shop How To Play Page -->
+    <string name="how_to_play_speed_shop1">انتقد الكائن المركزي نحو فئة التي ينتمي إليها.</string>
+
+    <!-- Spot It How To Play Page -->
+    <string name="how_to_play_spot_it1">بقعة الكائن يمر من خلال مجهر.</string>
+    <string name="how_to_play_spot_it2"> اضغط على نفس الكائن من خيارات معينة.</string>
+
+    <!-- Spot It Pro How To Play Page -->
+    <string name="how_to_play_spot_it_pro1"> بقعة اثنين من الأجسام التي تمر في وقت واحد من خلال مجهر.</string>
+    <string name="how_to_play_spot_it_pro2">اضغط على نفس كائنين من خيارات معينة.</string>
+
+
+
+
+
+    <!-- Brain Flash How To Play Page -->
+    <string name="how_to_play_brain_flash1">التركيز على الدوائر الرمادية الدورية.</string>
+    <string name="how_to_play_brain_flash2">ا ف ب الدائرة الذي يتغير إلى اللون الأخضر في أسرع وقت ممكن.</string>
+    <string name="how_to_play_brain_flash3"> لا تنقر إذا كان أحمرا.</string>
+    <string name="title_activity_how_to_play_after_match">كيفية اللعب بعد المباراة</string>
+    <string name="title_activity_how_to_play_match_it">كيفية اللعب مباراة و</string>
+    <string name="title_activity_how_to_play_match_it_pro">كيفية اللعب مباراة وبرو</string>
+    <string name="title_activity_how_to_play_memorymatrix">كيفية اللعب مصفوفة الذاكرة</string>
+    <string name="title_activity_how_to_play_memorymatrix_pro">كيف تلعب الذاكرة مصفوفة برو</string>
+    <string name="title_activity_how_to_play_money">كيفية اللعب المال</string>
+    <string name="title_activity_how_to_play_reversal">كيفية اللعب عكس</string>
+    <string name="title_activity_how_to_play_reversal_pro">كيفية اللعب عكس برو</string>
+    <string name="title_activity_how_to_play_shapes">كيفية اللعب الأشكال</string>
+    <string name="title_activity_how_to_play_solve_it">كيفية اللعب حلها</string>
+    <string name="title_activity_how_to_play_speed_shop">كيفية اللعب متجر سرعة</string>
+    <string name="title_activity_how_to_play_spot_it">كيفية اللعب بقعة و</string>
+    <string name="title_activity_how_to_play_spot_it_pro">كيفية اللعب بقعة وبرو</string>
+    <string name="title_activity_how_to_play_track_the_route">كيفية اللعب تتبع مسار</string>
+    <string name="title_activity_game_over">انتهت اللعبة</string>
+    <string name="title_activity_form">شكل</string>
+
+</resources>

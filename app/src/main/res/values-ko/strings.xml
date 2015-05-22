@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">NeuronGym</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">설정</string>
+    <string name="title_activity_language_select">언어 선택</string>
+    <string name="theam_select">테마를 선택</string>
+    <string name="home_page">홈 페이지</string>
+
+
+
+    <!-- Pause Popup -->
+
+    <string name="pause">중지</string>
+    <string name="resume">이력서</string>
+    <string name="replay">재생</string>
+    <string name="instrections">명령</string>
+    <string name="sound">소리 </string>
+    <string name="exit_game">게임 끝내기</string>
+
+    <!-- Slider menu -->
+
+    <string name="home">홈</string>
+    <string name="games">게임</string>
+    <string name="brain_profile">뇌 프로필</string>
+    <string name="compare">비교</string>
+    <string name="leadersbord">리더 보드</string>
+    <string name="friends">친구</string>
+    <string name="setting">환경</string>
+    <string name="language">언어</string>
+    <string name="logout">로그 아웃</string>
+    <string name="exit">출구</string>
+
+    <!-- Color Name -->
+
+    <string name="blue">푸른</string>
+    <string name="green">녹색</string>
+    <string name="white">화이트</string>
+    <string name="red">빨간</string>
+    <string name="orange">오렌지</string>
+    <string name="violet">제비꽃</string>
+    <string name="brown">갈색</string>
+    <string name="pink">핑크</string>
+
+
+    <!-- Languages name -->
+    <string name="select_language">언어 선택</string>
+
+    <string name="english">English</string>
+    <string name="spanish">Español</string>
+    <string name="hindi">हिंदी</string>
+    <string name="chinese">中文</string>
+    <string name="french">Français</string>
+    <string name="japanese">日本人</string>
+    <string name="russian">русский</string>
+    <string name="korean">한국의</string>
+    <string name="german">Deutsch</string>
+    <string name="turkish">Türk</string>
+    <string name="portuguese">Português</string>
+    <string name="italian">italiano</string>
+    <string name="arabic">العربية</string>
+
+
+    <!-- Login Screen -->
+    <string name="LoginWithfacebook">페이스북으로 로그인 </string>
+    <string name="LoginWithtwitter">트위터로 로그인</string>
+    <string name="LoginWithGoogleplus">구글로 로그인+</string>
+    <string name="LoginWithLinkedIn">링크드인으로 로그인</string>
+    <string name="AlreadyHaveAccount">이미 계정이 있으신가요?</string>
+    <string name="TermsnConditions">이용 약관</string>
+    <string name="PrivacyPolicy">개인 정보 보호 정책</string>
+
+    <!-- Sign In Page -->
+    <string name="Signin">로그인</string>
+
+    <!-- Select Theme Page -->
+    <string name="Light">밝게</string>
+    <string name="Dark">어둡게</string>
+    <string name="SelectTheme">테마 선택</string>
+    <string name="reminder">알림</string>
+
+    <!--Home Page-->
+    <string name="title_activity_home_page">홈 페이지</string>
+
+    <string name="over_view">소개</string>
+    <string name="history">기록</string>
+    <string name="Statistics">통계</string>
+
+    <!--Activity name-->
+    <string name="title_activity_select_language">언어 선택</string>
+    <string name="title_activity_sign_in">활동 로그인</string>
+    <string name="title_activity_brain_profile">브레인 프로필</string>
+
+
+
+    <!--Leaders Board page-->
+    <string name="title_activity_leaders_board">리더 보드</string>
+    <string name="catogery_short">카테고리</string>
+    <string name="over_all">전체</string>
+    <string name="skill_wise">스킬 와이즈</string>
+    <string name="game_wise">게임 와이즈</string>
+    <string name="global">글로벌</string>
+    <string name="country">국가</string>
+    <string name="your_rank">당신의 랭킹</string>
+    <string name="your_rank_result">귀하의 순위</string>
+
+    <string name="rank">순위</string>
+    <string name="nationality">국적</string>
+    <string name="user_name">아이디</string>
+    <string name="ani">ANI</string>
+
+    <!--Comparision page-->
+    <string name="title_activity_comparision">비교</string>
+    <string name="gender_short">성별</string>
+    <string name="location_short">위치</string>
+
+    <!--Shorting for Age selection-->
+    <string name="age_short">나이</string>
+    <string name="age_all">모든</string>
+    <string name="age_kid">어린이</string>
+    <string name="age_youth">청소년</string>
+    <string name="age_adult">성인</string>
+    <string name="age_mid_age">중년</string>
+    <string name="age_elder">노인</string>
+    <string name="female">여성</string>
+    <string name="male">남성</string>
+
+    <!--Six Gaming section name-->
+    <string name="attention">주의력</string>
+    <string name="memory">기억력</string>
+    <string name="visual">비주얼</string>
+    <string name="flexibility">유연성</string>
+    <string name="problem_solving">문제 해결 능력</string>
+    <string name="speed">속도</string>
+    <string name="your_standings">랭킹 순위</string>
+
+    <!--Brain Profile Activity-->
+    <string name="thirty_days">30 일</string>
+    <string name="seven_days">7 일</string>
+    <string name="today">오늘</string>
+    <string name="cognitive_change">인지 변화</string>
+    <string name="overall1">전체</string>
+
+    <!--Over View Page-->
+    <string name="average_neuron_index">평균 신경 세포 지수(ANI)</string>
+    <string name="brain_workout_distribution">뇌 운동 배포</string>
+    <string name="title_activity_game_menu">게임 메뉴</string>
+
+    <!-- 20 Game Name -->
+    <string name="dual_focus">듀얼 포커스</string>
+    <string name="dual_focus_pro">듀얼 포커스 프로</string>
+    <string name="blink">블링크</string>
+    <string name="blink_pro">블링크 프로</string>
+    <string name="track_route">트랙 더 루트</string>
+    <string name="memory_matrix">메모리 매트릭스</string>
+    <string name="memory_matrix_pro">메모리 매트릭스 프로</string>
+    <string name="dancing_balls">댄싱 볼스</string>
+    <string name="shapes">셰이프스</string>
+    <string name="match_it">매치 잇</string>
+    <string name="match_it_pro">매치 잇 프로</string>
+    <string name="reversal">리버설</string>
+    <string name="reversal_pro">리버설 프로</string>
+    <string name="money_game">머니 게임</string>
+    <string name="solve_it">솔브 잇</string>
+    <string name="after_math">애프터 매스</string>
+    <string name="speed_shop">스피드 샵</string>
+    <string name="spot_it">스팟 잇</string>
+    <string name="spot_it_pro">스팟 잇 프로</string>
+    <string name="brain_flash">브레인 플래시</string>
+    <string name="title_activity_dual_focus_instruction">이중 초점 명령</string>
+
+
+    <!--Dual Focus Instruction Page-->
+    <string name="cognative_skill_trained">인지 스킬 훈련 :
+    </string>
+    <string name="divided_attention">분할된 주의력
+    </string>
+    <string name="dual_focus_instruction">듀얼 포커스는 여러가지의 일들을 한꺼번에 집중할 수 있도록 멀티 태스킹 능력을 향상시켜 드립니다.
+    </string>
+    <string name="your_highest_score">가장 높은 점수
+    </string>
+    <string name="score">12500</string>
+    <string name="multiplier_reach">멀티플라이어 도달
+    </string>
+    <string name="multiplier_completed">2</string>
+    <string name="how_to_play">게임하는 방법
+    </string>
+    <string name="start_game">시작
+    </string>
+
+    <string name="title_activity_dual_focus_pro_instruction">이중 초점 프로 지시</string>
+
+    <!-- Dual Focus Pro Instruction Page -->
+    <string name="dual_focus_pro_instruction">듀얼 포커스는 여러가지의 일들을 한꺼번에 집중할 수 있도록 멀티 태스킹 능력을 향상시켜 드립니다.
+    </string>
+    <string name="title_activity_blink_instruction">깜박임 명령</string>
+
+    <!-- Blink Instruction Page -->
+    <string name="blink_instruction">블링크는 매우 신속하고 정확하게 주변의 요소들을 인식하는 데 도움을 주는 완벽한 주의력 게임입니다.
+    </string>
+    <string name="title_activity_blink_pro_instruction">프로 지시 깜박임</string>
+    <string name="title_activity_track_the_route">트랙 더 루트</string>
+    <string name="title_activity_memory_matrix">메모리 매트릭스</string>
+    <string name="title_activity_memory_matrix_pro_instruction">메모리 매트릭스 프로지시</string>
+    <string name="title_activity_dancing_ball_instruction">볼 지시 춤</string>
+    <string name="title_activity_shapes_instruction">모양 명령</string>
+    <string name="title_activity_match_it_instruction">경기 그것은 명령</string>
+    <string name="title_activity_match_it_pro_instruction">경기 그것은 프로 지시</string>
+    <string name="title_activity_reversal_instruction">반전 명령</string>
+    <string name="title_activity_reversal_pro_instruction">반전 프로 지시</string>
+    <string name="title_activity_money_game_instruction">머니 게임 지시</string>
+    <string name="title_activity_solve_it_instruction">IT 명령어를 해결</string>
+    <string name="title_activity_after_math_instruction">수학 수업 후</string>
+    <string name="title_activity_speed_shop_instruction">속도 숍 명령</string>
+    <string name="title_activity_spot_it_instruction">스팟이 명령</string>
+    <string name="title_activity_spot_it_pro_instruction">스팟이 프로 지시</string>
+    <string name="title_activity_brain_flash_instruction">뇌 플래시 명령</string>
+
+    <!--Track The Route Instruction Page-->
+    <string name="track_route_instruction">트랙 더 루트는 탐색 메모리뿐만이 아니라 워킹 메모리도 강화시켜주고 거리와 경로들을 기억할 수 있도록 뇌에게 도움을 드립니다.
+    </string>
+
+
+    <!--Memory Matrix Instruction Page-->
+    <string name="memory_matrix_instruction">메모리 매트릭스는 공간 메모리와 객체의 위치를 기억하는 능력을 향상시켜 드립니다.
+    </string>
+
+    <!--Memory Matrix Pro Instruction Page-->
+    <string name="memory_matrix_pro_instruction">메모리 매트릭스는 공간 메모리와 객체의 위치를 기억하는 능력을 향상시켜 드립니다.
+    </string>
+
+    <!--Dancing Balls  Instruction Page-->
+    <string name="dancing_balls_instruction">댄싱 볼스는 시각적으로 간단하고 효율적인 방법으로 정보를 처리하는 데 도움을 줄 것입니다, 예를 들면 자동차를 운전할 때와 같은 상황.
+    </string>
+
+    <!--Shapes Instruction Page-->
+    <string name="shapes_instruction">셰이프스는 뇌가 중복 데이터는 무시하고 필요한 데이터는 바로 인식할 수 있도록 도움을 드립니다.
+    </string>
+
+    <!--Match It Instruction Page-->
+    <string name="match_it_instruction">매치 잇은 터치와 같은 정신적 유연성을 기르고 의사 결정이 필요한 상황에 도움이 됩니다.
+    </string>
+
+    <!--Match It Pro Instruction Page-->
+    <string name="match_it_pro_instruction">매치 잇은 터치와 같은 정신적 유연성을 기르고 의사 결정이 필요한 상황에 도움이 됩니다.
+    </string>
+
+    <!--Reversal Instruction Page-->
+    <string name="reversal_instruction">리버설은 집중력의 초점을 빠르게 이동하는 능력을 강화 시켜 인지 컨트롤을 향상시킬 수 있도록 도움을 드립니다.
+    </string>
+
+    <!--Reversal Pro Instruction Page-->
+    <string name="reversal_pro_instruction">리버설은 집중력의 초점을 빠르게 이동하는 능력을 강화 시켜 인지 컨트롤을 향상시킬 수 있도록 도움을 드립니다.
+    </string>
+
+    <!--Money Game Instruction Page-->
+    <string name="money_game_instruction">머니 게임은 양적 추론 능력을 자극하여 문제 해결 능력을 향상시켜 드립니다.
+    </string>
+
+    <!--Solve It Instruction Page-->
+    <string name="solve_it_instruction">솔브 잇은 효율적이고 신속하게 방정식 계산하는 데 도움을 드립니다.
+    </string>
+
+    <!--After Math Instruction Page-->
+    <string name="after_math_instruction">에프터 매스는 효율적으로 정량적인 데이터에 대한 의사 결정을 잘 할 수 있도록 도움을 드립니다.
+    </string>
+
+    <!--Speed Shop Instruction Page-->
+    <string name="speed_shop_instruction">스피드 샵은 전반적인 효율을 증가시켜 작은 의사 결정도 빨리 처리할 수 있도록 속도를 증가시킵니다.
+    </string>
+
+    <!--Spot It Instruction Page-->
+    <string name="spot_it_instruction">스팟 잇은 뇌의 정보 처리 속도를 향상시켜 드립니다.
+    </string>
+
+    <!--Spot It Pro Instruction Page-->
+    <string name="spot_it_pro_instruction">스팟 잇은 뇌의 정보 처리 속도를 향상시켜 드립니다.
+    </string>
+
+
+    <!--Brain Flash Instruction Page-->
+    <string name="brain_flash_instruction">브레인 플래시는 두뇌의 처리 속도를 증가시켜 반사 작용을 강화하는 데 도움이 됩니다.
+     </string>
+
+
+
+
+
+
+    <!-- Dual Focus How To Play Page -->
+    <string name="how_to_play_dual_focus1">작은 원 중 하나에 이미지와 함께 중앙 원의 자리가 깜박입니다.</string>
+    <string name="how_to_play_dual_focus2">나타난 숫자를 누릅니다.</string>
+    <string name="how_to_play_dual_focus3">나타난 이미지를 누릅니다.</string>
+    <string name="how_to_play_dual_focus4">abhinav</string>
+
+    <!-- Dual Focus Pro How To Play Page -->
+    <string name="how_to_play_dual_focus_pro"> 이미지가 나타나는 작은 원을 누릅니다.</string>
+
+    <!-- Blink How To Play Page -->
+    <string name="how_to_play_blink1">회색 알파벳의 스트림의 숫자에 녹색 컬러 알파벳과 함께 깜박입니다.</string>
+    <string name="how_to_play_blink2">주어진 옵션에서 그 자리 및 녹색 색깔 알파벳을 누릅니다.</string>
+
+    <!-- Blink Pro How To Play Page -->
+    <string name="how_to_play_blink_pro1"> 회색 알파벳의 스트림 숫자, 알파벳 녹색 및 파란색 알파벳으로 깜박입니다.</string>
+    <string name="how_to_play_blink_pro2">숫자뿐만 아니라 각각의 옵션에서 녹색과 파란색 알파벳 누릅니다.</string>
+
+    <!-- Track The Route How To Play Page -->
+    <string name="how_to_play_track_the_route1">비행기는 특정 패턴을 형성하는 점을 연결한다.</string>
+    <string name="how_to_play_track_the_route2">패턴을 외워과 같은 순서로 점 두드리고하여 다시 작성하십시오.</string>
+
+    <!-- Memory Matrix How To Play Page -->
+    <string name="how_to_play_memory_matrix1">빨간색으로 점등 원을 외워.</string>
+    <string name="how_to_play_memory_matrix2">그들이 사라질 후 동일한 원을 누릅니다.</string>
+
+    <!-- Memory Matrix Pro Pro How To Play Page -->
+    <string name="how_to_play_memory_matrix_pro1">파란색 또는 빨간색으로 점등 원을 외워.</string>
+    <string name="how_to_play_memory_matrix_pro2"> 표시등이 위의 빨간색 표시하는 경우에만 빨간색 원을 누릅니다.</string>
+    <string name="how_to_play_memory_matrix_pro3">표시등이 위의 파란색 표시의 만 파란색 동그라미를 누릅니다.</string>
+
+    <!-- Dancing Ball How To Play Page -->
+    <string name="how_to_play_dancing_ball1">움직이는 공의 경로 모양의 개요를 작성합니다.</string>
+    <string name="how_to_play_dancing_ball2">정확한 옵션을 누릅니다.</string>
+
+    <!-- Shapes How To Play Page -->
+    <string name="how_to_play_shapes1">두 개의 동일한 모양에 누릅니다.</string>
+
+    <!-- Match It How To Play Page -->
+    <string name="how_to_play_match_it1"> 텍스트의 의미는 텍스트의 색상, 탭 \'올바른\'버튼과 동일한 경우</string>
+    <string name="how_to_play_match_it2">그리고 그것은 같은 탭 \'잘못\'버튼이 아닌 경우.</string>
+
+    <!-- Match It Pro How To Play Page -->
+    <string name="how_to_play_match_it_pro1"> 의미 상자의 텍스트의 의미는 칼라 박스 탭 \'올바른\'버튼에 텍스트의 색상과 동일한 경우.</string>
+    <string name="how_to_play_match_it_pro2"> 그리고 그것은 같은 탭 \'잘못\'버튼이 아닌 경우.</string>
+
+    <!-- Reversal How To Play Page -->
+    <string name="how_to_play_reversal1"> 볼 때 녹색은 와이프의 방향으로 이동한다.</string>
+    <string name="how_to_play_reversal2">공 적색 될 때 와이프가 반대 방향으로 이동할 것이다.</string>
+    <string name="how_to_play_reversal3"> 당신의 목표는 빛나는 바구니에 공을 넣어하는 것입니다.</string>
+
+    <!-- Reversal Pro How To Play Page -->
+    <string name="how_to_play_reversal_pro1">당신의 목표는 공의 외륜과 동일한 색상의 바구니에 공을 넣어하는 것입니다.</string>
+
+    <!-- Money Game How To Play Page -->
+    <string name="how_to_play_money_game1">탭> 왼쪽 상자에 동전의 합이 더 많은 경우.</string>
+    <string name="how_to_play_money_game2"> 탭> 오른쪽 상자에 동전의 합이 더 많은 경우. </string>
+    <string name="how_to_play_money_game3"> 탭 = 상자 모두에서 동전의 합이 같은 경우.</string>
+
+    <!-- Solve It How To Play Page -->
+    <string name="how_to_play_solve_it1"> 방정식을 계산하고 키패드를 사용하여 응답.</string>
+    <string name="how_to_play_solve_it2">C 키를 눌러 입력을 취소하려면 </string>
+    <string name="how_to_play_solve_it3"> 플레이 버튼을 누르면 그 방정식을 건너 뜁니다.</string>
+
+    <!-- After Math How To Play Page -->
+    <string name="how_to_play_after_math1"> 주어진 방정식은 옳고 그름 여부를 확인합니다.</string>
+    <string name="how_to_play_after_math2"> 따라서 \'올바른\'또는 \'잘못된\'버튼을 누릅니다. </string>
+
+    <!-- Speed Shop How To Play Page -->
+    <string name="how_to_play_speed_shop1">이 속하는 범주를 향해 중앙 객체를 문지.</string>
+
+    <!-- Spot It How To Play Page -->
+    <string name="how_to_play_spot_it1">양안 통과 물체 스팟.</string>
+    <string name="how_to_play_spot_it2">  주어진 옵션에서 동일한 개체를 누릅니다.</string>
+
+    <!-- Spot It Pro How To Play Page -->
+    <string name="how_to_play_spot_it_pro1"> 양안을 동시에 통과하는 두 개의 객체를 스팟.</string>
+    <string name="how_to_play_spot_it_pro2">주어진 옵션에서 동일한 두 개체를 누릅니다.</string>
+
+    <!-- Brain Flash How To Play Page -->
+    <string name="how_to_play_brain_flash1">회전 회색 서클에 집중.</string>
+    <string name="how_to_play_brain_flash2">가능한 빨리 녹색으로 변경 원을 누릅니다.</string>
+    <string name="how_to_play_brain_flash3"> 이 빨간색으로 변 경우 탭하지 마십시오.</string>
+
+
+    <string name="title_activity_how_to_play_after_match">여파 게임 방법</string>
+    <string name="title_activity_how_to_play_match_it">경기 연주 방법</string>
+    <string name="title_activity_how_to_play_match_it_pro">경기는 프로 게임 방법</string>
+    <string name="title_activity_how_to_play_memorymatrix">메모리 매트릭스 게임 방법</string>
+    <string name="title_activity_how_to_play_memorymatrix_pro">재생하는 방법 메모리 매트릭스 프로</string>
+    <string name="title_activity_how_to_play_money">돈을 플레이하는 방법</string>
+    <string name="title_activity_how_to_play_reversal">반전을 재생하는 방법</string>
+    <string name="title_activity_how_to_play_reversal_pro">반전 프로 게임 방법</string>
+    <string name="title_activity_how_to_play_shapes">모양을 재생하는 방법</string>
+    <string name="title_activity_how_to_play_solve_it">그것을 해결 재생하는 방법</string>
+    <string name="title_activity_how_to_play_speed_shop">속도 숍을 재생하는 방법</string>
+    <string name="title_activity_how_to_play_spot_it">스팟 연주 방법</string>
+    <string name="title_activity_how_to_play_spot_it_pro">스팟이 프로 게임 방법</string>
+    <string name="title_activity_how_to_play_track_the_route">트랙 경로를 재생하는 방법</string>
+    <string name="title_activity_game_over">게임 오버</string>
+    <string name="title_activity_form">형태</string>
+
+</resources>

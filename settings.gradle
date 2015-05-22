@@ -1,0 +1,4 @@
+include ':app', ':facebook'
+include ':materialDesign'
+include ':libraries:facebook'
+project(':facebook').projectDir = new File('libraries/facebook')
