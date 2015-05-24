@@ -73,6 +73,11 @@ public class HowToPlayBlink extends Activity {
         return super.onTouchEvent(event);
     }
 
+
+/* 
+
+The below code is to get a Mouse response in the  and y coordinate
+*/
     private void actiondown(MotionEvent event) {
         x = event.getX();
         y = event.getY();
